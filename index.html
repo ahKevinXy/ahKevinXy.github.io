@@ -16,121 +16,37 @@ if (isPassword) {
     error: '复制错误',
     noSupport: '浏览器不支持'
   }
-}</script><meta name="generator" content="Hexo 4.2.0"></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="https://avatars1.githubusercontent.com/u/31835335?s=460&amp;v=4"></div><div class="author-info-name">月明远航</div><div class="author-info-description">一个php开发者</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/ahKevinXy" target="_blank">GitHub<i class="icon-dot bg-color2"></i></a><a class="links-button button-hover" href="mailto:ah_kevin_xy@126.com" target="_blank">E-Mail<i class="icon-dot bg-color5"></i></a><a class="links-button button-hover" href="tencent://message/?uin=2502329620&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color6"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">3</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">5</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">3</span></a></div><div class="friend-link"><a class="friend-link-text" href="https://github.com/fan-lv" target="_blank">Fan</a><a class="friend-link-text" href="https://github.com/diveDylan" target="_blank">Dylan</a><a class="friend-link-text" href="https://github.com/jiangzhenfei" target="_blank">Fei</a></div><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=319936&auto=1&height=32"></iframe></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">月明远航</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/">Mysql技术内幕与innodb存储引擎</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/MySQL/">MySQL</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book/">book</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/mysql/">mysql</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/InnoDb/">InnoDb</a></div></div><div class="post-content"><div class="main-content content"><blockquote>
-<p>目录</p>
-</blockquote>
-<ul>
-<li><p><a href="#MySQL体系结构和存储引擎">第一章 MySQL体系结构和存储引擎</a></p>
-</li>
-<li><p><a href="#存储引擎之间的比较">第二章 InnoDB存储引擎之间的比较</a></p>
-</li>
-<li><p><a href="#文件">第三章 文件</a></p>
-</li>
-<li><p><a href="#表">第四章 表</a></p>
-</li>
-<li><p><a href="#索引与算法">第五章 索引与算法</a></p>
-</li>
-<li><p><a href="#锁">第六章 锁</a></p>
-</li>
-<li><p><a href="#事务">第七章 事务</a></p>
-</li>
-<li><p><a href="#备份与恢复">第八章 备份与恢复</a></p>
-</li>
-<li><p><a href="#性能调优">第九章 性能调优</a></p>
-</li>
-<li><p><a href="#源代码编译">第十章 InnoDb存储引擎源代码的编译</a></p>
-</li>
-</ul>
-<h2 id="第一章-MySQL体系结构和存储引擎"><a href="#第一章-MySQL体系结构和存储引擎" class="headerlink" title="第一章 MySQL体系结构和存储引擎  "></a>第一章 MySQL体系结构和存储引擎  <span id='MySQL体系结构和存储引擎'></span></h2><h3 id="定义数据库和实例"><a href="#定义数据库和实例" class="headerlink" title="定义数据库和实例"></a>定义数据库和实例</h3><ul>
-<li><p>数据库<br>  物理操作系统文件或其他形式文件类型的集合</p>
-</li>
-<li><p>数据库实例<br>  由数据库后台进程/线程以及一个共享内存区组成</p>
-</li>
-<li><p>数据库加载默认配置路径 </p>
-<p>  mysql –help | grep my.cnf</p>
-<p>  /etc/my.cnf /etc/mysql/my.cnf /usr/lcoal/mysql/etc/my.cnf ~/.my.cnf</p>
-</li>
-</ul>
-<h3 id="MySQL体系结构"><a href="#MySQL体系结构" class="headerlink" title="MySQL体系结构"></a>MySQL体系结构</h3><ul>
-<li>MySQL组成部分</li>
-</ul>
-<ol>
-<li>连接池组件</li>
-<li>管理服务与工具组件</li>
-<li>sql接口组件</li>
-<li>查询分析器组件</li>
-<li>优化器组件</li>
-<li>缓冲(Cache) 组件</li>
-<li>插件式存储引擎</li>
-<li>物理文件</li>
-</ol>
-<h3 id="MySQL-表存储引擎"><a href="#MySQL-表存储引擎" class="headerlink" title="MySQL 表存储引擎"></a>MySQL 表存储引擎</h3><h4 id="InnoDb-存储引擎"><a href="#InnoDb-存储引擎" class="headerlink" title="InnoDb 存储引擎"></a>InnoDb 存储引擎</h4><p>InnoDB 存储引擎支持事务,主要面向在线事务处理(OLTP)方面的应用.其特点是行锁设计,支持外键,并支持类似Oracle 的非锁定读,默认情况下读取操作不会产生锁</p>
-<p>InnoDb 存储引擎将数据放在一个逻辑的表空间中,InnoDb使用多版本并发控制(MVCC)来获得高并发性,并且实现了SQL标准的4种隔离,默认为REPETABL级别.同时使用了一种 * next-key locking 的策略来避免幻读(phantom) * .此外InnoDb还提供了插入缓冲,二次写,自适应哈希索引,预读等高性能高可用的功能.<br>对于表中数据的存储,InnoDB存储引擎采用了聚集(Clustered)的方式,这种方式类似Oracle的索引聚集表.每张表的存储都按照主键的顺序存放,如果没有显式在表定义时指定主键,InnoDB存储引擎会为每一行生成一个6字节的ROWID,并以此为主键</p>
-<h4 id="MyISAM-存储引擎"><a href="#MyISAM-存储引擎" class="headerlink" title="MyISAM 存储引擎"></a>MyISAM 存储引擎</h4><p>MyISAM 存储引擎是MySQL官方提供的存储引擎,其特点是不支持事务,支持表锁和全文索,对于OLAP(Online Analytical Processing,在线分析处理) 操作速度快.MyISAM存储的另一个特点是缓冲池只缓存索引文件</p>
-<p>MyISAM 存储引擎表由MYD和MYI组成,MYD用来存放数据文件,MYI用来存放索引文件.可以使用myisampack工具来进一步压缩数据文件(压缩后只读)</p>
-<h4 id="NDB-存储引擎"><a href="#NDB-存储引擎" class="headerlink" title="NDB 存储引擎"></a>NDB 存储引擎</h4><p>NDB 存储引擎是一个集群存储引擎,类似Oracle 的RAC集群,结构是share nothing 的集群架构,因此能提供更高的可用性.NDB的特点是数据全部放在内存中,因此主键查找的速度非常快,并且调过添加NDB数据存储节点可以线性地提高数据库虚拟,是高可用,高性能的集群系统 * NDN存储引擎的连接操作join是在MySQL数据库层完成的而不是存储引擎层完成的 *</p>
-<h4 id="Memory-存储引擎"><a href="#Memory-存储引擎" class="headerlink" title="Memory 存储引擎"></a>Memory 存储引擎</h4></div></div><a class="button-hover more" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/">docker进阶与实战</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/Docker/">Docker</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book-docker/">book docker</a></div></div><div class="post-content"><div class="main-content content"><h3 id="docker-简介"><a href="#docker-简介" class="headerlink" title="docker 简介"></a>docker 简介</h3><h4 id="docker-架构图"><a href="#docker-架构图" class="headerlink" title="docker 架构图"></a>docker 架构图</h4><h4 id="功能与组件"><a href="#功能与组件" class="headerlink" title="功能与组件"></a>功能与组件</h4><ol>
-<li>docker 客户端</li>
-<li>docker daemon</li>
-<li>docker 容器</li>
-<li>docker 镜像</li>
-<li>registry</li>
-</ol>
-<blockquote>
-<p>docker 客户端</p>
-</blockquote>
-<pre><code>docker 是一个典型的C/S 架构的应用程序</code></pre><blockquote>
-<p>docker daemon</p>
-</blockquote>
-<pre><code>docker daemon 也可以被理解为Docker Server .另外人们常用 Docker Engine 直接描述 驱动整个docker功能的核心引擎</code></pre><blockquote>
-<p>docker 容器</p>
-</blockquote>
-<pre><code>docker 通过libcontainer 实现对容器生命周期的管理,信息的设置和查询,以及监控和通信等功能.而容器也是对镜像的完美诠释,容器以镜像为基础,同时又为镜像提供了一个标准的和隔离的执行环境</code></pre><blockquote>
-<p>docker 镜像</p>
-</blockquote>
-<pre><code>如果说容器提供了一个完整的,隔离的运行环境,那么镜像则是这个运行环境的静态体现,是一个还没有运行起来的运行环境. 相对于传统虚拟化的ISO镜像,Docker镜像要轻量很多,它是一个可定制的rootfs.</code></pre><blockquote>
-<p>Registry</p>
-</blockquote>
-<pre><code>Registry 是一个存放镜像的仓库,它通常被部署在互联网服务器或者云端
-
-Docker 公司的叫Docker Hub</code></pre><h4 id="docker-安装"><a href="#docker-安装" class="headerlink" title="docker 安装"></a>docker 安装</h4><ul>
-<li><p>ubuntu</p>
-<p>  sudo apt-get install docker.io</p>
-</li>
-</ul>
-<h4 id="Doker-与-虚拟机间的联系"><a href="#Doker-与-虚拟机间的联系" class="headerlink" title="Doker 与 虚拟机间的联系"></a>Doker 与 虚拟机间的联系</h4><pre><code>容器与虚拟机是互补.虚拟机是用来进行硬件资源划分的完美解决方案,它利用硬件虚拟化技术,会同时通过一个hypervisor 层来实现对资源的彻底隔离;而容器则是操作系统级别的虚拟化,利用的是内核的Cgroup和Namespace特性,此功能完全通过软件来实现,仅仅是进程本身就可以与其他进程隔离开,不需要任何辅助
-Docker 容器与主机共享操作系统内核,不同的容器之间可以共享部分系统资源</code></pre><h3 id="关于容器技术"><a href="#关于容器技术" class="headerlink" title="关于容器技术"></a>关于容器技术</h3><pre><code>容器技术,又称为容器虚拟化,之所以欢迎是因为它已经集成到Linux内核中</code></pre><h4 id="容器技术的特性"><a href="#容器技术的特性" class="headerlink" title="容器技术的特性"></a>容器技术的特性</h4><ul>
-<li><p>Namespace </p>
-<pre><code>Namespace又称为命名空间,它主要做访问隔离.其原理是针对一类资源进行抽象,并将其封装在一起提供给一个容器使用</code></pre></li>
-<li><p>Cgroup</p>
-<pre><code>Cgroup 是control group 的简称,又称为控制组,它主要是做资源控制.其原理是将一组进程放在一个控制组里,通过给这个控制组分配指定的可用资源,达到控制一组进程的可用资源的目的</code></pre></li>
-</ul>
-<h4 id="容器的组成"><a href="#容器的组成" class="headerlink" title="容器的组成"></a>容器的组成</h4><pre><code>Container = cgroup + namespace + rootfs + 容器引擎</code></pre><ol>
-<li>Cgroup 资源控制</li>
-<li>Namespace 访问控制</li>
-<li>roottfs 文件系统隔离</li>
-<li>容器引擎 生命周期控制</li>
-</ol>
-<h5 id="Cgroup"><a href="#Cgroup" class="headerlink" title="Cgroup"></a>Cgroup</h5><ul>
-<li><p>Cgroup 是control group 的简写 用于限制和隔离一组进程对系统资源的使用,也就是做资源Qos,这些资源主要包括CPU,内存,block I/O 和网络宽带</p>
-<blockquote>
-<p>Cgroup 中实现的子系统及其作用</p>
-</blockquote>
-</li>
-</ul>
-<ol>
-<li>devices: 设备权限控制</li>
-<li>cpuset 分配指定CPU 和 内存节点</li>
-<li>cpu 控制CPU占用率</li>
-<li>cpuacct 统计CPU 使用情况</li>
-<li>memory 限制内存的使用上限</li>
-<li>freezer 冻结Cgroup中的进程</li>
-<li>net_cls 配合tc限制网络宽带</li>
-<li>net_prio 设置进程的网络流量优先级</li>
-<li>huge_tlb 设置进程的网络流量优先级</li>
-<li>perf_event 允许HugeTLB工具基于Cgroup 分组做性能监控</li>
-</ol>
-</div></div><a class="button-hover more" href="/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/12/27/page/">第一个博客起步</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/book/">book</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E8%B5%B7%E6%AD%A5/">起步</a></div></div><div class="post-content"><div class="main-content content"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=27591735&auto=0&height=66"></iframe>
+}</script><meta name="generator" content="Hexo 4.2.0"></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="https://avatars1.githubusercontent.com/u/31835335?s=460&amp;v=4"></div><div class="author-info-name">月明远航</div><div class="author-info-description">一个php开发者</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/ahKevinXy" target="_blank">GitHub<i class="icon-dot bg-color6"></i></a><a class="links-button button-hover" href="mailto:ah_kevin_xy@126.com" target="_blank">E-Mail<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="tencent://message/?uin=2502329620&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color1"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">3</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">5</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">3</span></a></div><div class="friend-link"><a class="friend-link-text" href="https://github.com/fan-lv" target="_blank">主题来自于 Fan</a><a class="friend-link-text" href="https://github.com/diveDylan" target="_blank">前端大神  Dylan</a><a class="friend-link-text" href="https://github.com/jiangzhenfei" target="_blank">架构师 Fei</a></div><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=319936&auto=1&height=32"></iframe></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">月明远航</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/">Mysql技术内幕与innodb存储引擎</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/MySQL/">MySQL</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book/">book</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/mysql/">mysql</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/InnoDb/">InnoDb</a></div></div><div class="post-content"><div class="main-content content">
+目录
 
 
-<h3 id="2019-12-27-23-45-24"><a href="#2019-12-27-23-45-24" class="headerlink" title="2019-12-27 23:45:24"></a>2019-12-27 23:45:24</h3><h4 id="第一次使用hexo-开始博客"><a href="#第一次使用hexo-开始博客" class="headerlink" title="第一次使用hexo 开始博客"></a>第一次使用hexo 开始博客</h4><h4 id="一天一篇"><a href="#一天一篇" class="headerlink" title="一天一篇"></a>一天一篇</h4></div></div><a class="button-hover more" href="/2019/12/27/page/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><span class="page-number current">1</span></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2019 By 月明远航</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
+第一章 MySQL体系结构和存储引擎
+
+第二章 InnoDB存储引擎之间的比较
+
+第三章 文件
+
+第四章 表
+
+第五章 索引与算法
+
+第六章 锁
+
+第七章 事务
+
+第八章 备份与恢复
+
+第 ...</div></div><a class="button-hover more" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/">docker进阶与实战</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/Docker/">Docker</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book-docker/">book docker</a></div></div><div class="post-content"><div class="main-content content">docker 简介docker 架构图功能与组件
+docker 客户端
+docker daemon
+docker 容器
+docker 镜像
+registry
+
+
+docker 客户端
+
+docker  ...</div></div><a class="button-hover more" href="/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/12/27/page/">第一个博客起步</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/book/">book</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E8%B5%B7%E6%AD%A5/">起步</a></div></div><div class="post-content"><div class="main-content content">
+
+
+2019-12-27 23:45:24第一次使用hexo 开始博客一天一篇</div></div><a class="button-hover more" href="/2019/12/27/page/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><span class="page-number current">1</span></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2019 By 月明远航</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
