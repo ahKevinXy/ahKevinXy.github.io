@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="cn"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="docker进阶与实战"><meta name="keywords" content="book docker"><meta name="author" content="月明远航,undefined"><meta name="copyright" content="月明远航"><title>docker进阶与实战【月明远航】</title><link rel="stylesheet" href="/css/fan.css"><link rel="stylesheet" href="/css/thirdparty/jquery.mCustomScrollbar.min.css"><link rel="icon" href="/favicon.ico"><!-- script(src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")--><script src="/js/mathjax/mathjax.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+});
+</script><script>var isPassword = '' || false;
+if (isPassword) {
+    if (prompt('请输入文章密码') !== '') {
+        alert('密码错误！');
+        history.back();
+    }
+}</script><script>window.GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  }
+}</script><meta name="generator" content="Hexo 4.2.0"></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="toggle-sidebar-info button-hover"><span data-toggle="文章目录">站点概览</span></div><div class="sidebar-toc"><div class="sidebar-toc-title">目录</div><div class="sidebar-toc-progress"><span class="progress-notice">您已阅读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc-progress-bar"></div></div><div class="sidebar-toc-content" id="sidebar-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#docker-简介"><span class="toc-number">1.</span> <span class="toc-text">docker 简介</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#docker-架构图"><span class="toc-number">1.1.</span> <span class="toc-text">docker 架构图</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#功能与组件"><span class="toc-number">1.2.</span> <span class="toc-text">功能与组件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#docker-安装"><span class="toc-number">1.3.</span> <span class="toc-text">docker 安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Doker-与-虚拟机间的联系"><span class="toc-number">1.4.</span> <span class="toc-text">Doker 与 虚拟机间的联系</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关于容器技术"><span class="toc-number">2.</span> <span class="toc-text">关于容器技术</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#容器技术的特性"><span class="toc-number">2.1.</span> <span class="toc-text">容器技术的特性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#容器的组成"><span class="toc-number">2.2.</span> <span class="toc-text">容器的组成</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Cgroup"><span class="toc-number">2.2.1.</span> <span class="toc-text">Cgroup</span></a></li></ol></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info-avatar"><img class="author-info-avatar-img" src="https://avatars1.githubusercontent.com/u/31835335?s=460&amp;v=4"></div><div class="author-info-name">月明远航</div><div class="author-info-description">一个php开发者</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/ahKevinXy" target="_blank">GitHub<i class="icon-dot bg-color6"></i></a><a class="links-button button-hover" href="mailto:ah_kevin_xy@126.com" target="_blank">E-Mail<i class="icon-dot bg-color8"></i></a><a class="links-button button-hover" href="tencent://message/?uin=2502329620&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color2"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">2</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">2</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">2</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">月明远航</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><article id="post"><div class="post-header"><div class="title">docker进阶与实战</div><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2019-12-27 | 更新于 2019-12-27</time><!--time.button-hover.post-date #[i.fas.fa-calendar-alt.article-icon(aria-hidden="true")] #[=__('post.modified')] #[=date(page['updated'], config.date_format)]--><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/docker/">docker</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book-docker/">book docker</a></div></div></div><div class="main-content"><h3 id="docker-简介"><a href="#docker-简介" class="headerlink" title="docker 简介"></a>docker 简介</h3><h4 id="docker-架构图"><a href="#docker-架构图" class="headerlink" title="docker 架构图"></a>docker 架构图</h4><p><img src="evernotecid://7CFCB08E-9D9E-4595-817C-EE80A398CF2D/appyinxiangcom/19552944/ENResource/p2875" alt="ff267a3885a87a10ec515c76ca08695b.png"></p>
+<h4 id="功能与组件"><a href="#功能与组件" class="headerlink" title="功能与组件"></a>功能与组件</h4><ol>
+<li>docker 客户端</li>
+<li>docker daemon</li>
+<li>docker 容器</li>
+<li>docker 镜像</li>
+<li>registry</li>
+</ol>
+<blockquote>
+<p>docker 客户端</p>
+</blockquote>
+<pre><code>docker 是一个典型的C/S 架构的应用程序</code></pre><blockquote>
+<p>docker daemon</p>
+</blockquote>
+<pre><code>docker daemon 也可以被理解为Docker Server .另外人们常用 Docker Engine 直接描述 驱动整个docker功能的核心引擎</code></pre><blockquote>
+<p>docker 容器</p>
+</blockquote>
+<pre><code>docker 通过libcontainer 实现对容器生命周期的管理,信息的设置和查询,以及监控和通信等功能.而容器也是对镜像的完美诠释,容器以镜像为基础,同时又为镜像提供了一个标准的和隔离的执行环境</code></pre><blockquote>
+<p>docker 镜像</p>
+</blockquote>
+<pre><code>如果说容器提供了一个完整的,隔离的运行环境,那么镜像则是这个运行环境的静态体现,是一个还没有运行起来的运行环境. 相对于传统虚拟化的ISO镜像,Docker镜像要轻量很多,它是一个可定制的rootfs.</code></pre><blockquote>
+<p>Registry</p>
+</blockquote>
+<pre><code>Registry 是一个存放镜像的仓库,它通常被部署在互联网服务器或者云端
+
+Docker 公司的叫Docker Hub</code></pre><h4 id="docker-安装"><a href="#docker-安装" class="headerlink" title="docker 安装"></a>docker 安装</h4><ul>
+<li><p>ubuntu</p>
+<p>  sudo apt-get install docker.io</p>
+</li>
+</ul>
+<h4 id="Doker-与-虚拟机间的联系"><a href="#Doker-与-虚拟机间的联系" class="headerlink" title="Doker 与 虚拟机间的联系"></a>Doker 与 虚拟机间的联系</h4><pre><code>容器与虚拟机是互补.虚拟机是用来进行硬件资源划分的完美解决方案,它利用硬件虚拟化技术,会同时通过一个hypervisor 层来实现对资源的彻底隔离;而容器则是操作系统级别的虚拟化,利用的是内核的Cgroup和Namespace特性,此功能完全通过软件来实现,仅仅是进程本身就可以与其他进程隔离开,不需要任何辅助
+Docker 容器与主机共享操作系统内核,不同的容器之间可以共享部分系统资源</code></pre><h3 id="关于容器技术"><a href="#关于容器技术" class="headerlink" title="关于容器技术"></a>关于容器技术</h3><pre><code>容器技术,又称为容器虚拟化,之所以欢迎是因为它已经集成到Linux内核中</code></pre><h4 id="容器技术的特性"><a href="#容器技术的特性" class="headerlink" title="容器技术的特性"></a>容器技术的特性</h4><ul>
+<li><p>Namespace </p>
+<pre><code>Namespace又称为命名空间,它主要做访问隔离.其原理是针对一类资源进行抽象,并将其封装在一起提供给一个容器使用</code></pre></li>
+<li><p>Cgroup</p>
+<pre><code>Cgroup 是control group 的简称,又称为控制组,它主要是做资源控制.其原理是将一组进程放在一个控制组里,通过给这个控制组分配指定的可用资源,达到控制一组进程的可用资源的目的</code></pre></li>
+</ul>
+<h4 id="容器的组成"><a href="#容器的组成" class="headerlink" title="容器的组成"></a>容器的组成</h4><pre><code>Container = cgroup + namespace + rootfs + 容器引擎</code></pre><ol>
+<li>Cgroup 资源控制</li>
+<li>Namespace 访问控制</li>
+<li>roottfs 文件系统隔离</li>
+<li>容器引擎 生命周期控制</li>
+</ol>
+<h5 id="Cgroup"><a href="#Cgroup" class="headerlink" title="Cgroup"></a>Cgroup</h5><ul>
+<li><p>Cgroup 是control group 的简写 用于限制和隔离一组进程对系统资源的使用,也就是做资源Qos,这些资源主要包括CPU,内存,block I/O 和网络宽带</p>
+<blockquote>
+<p>Cgroup 中实现的子系统及其作用</p>
+</blockquote>
+</li>
+</ul>
+<ol>
+<li>devices: 设备权限控制</li>
+<li>cpuset 分配指定CPU 和 内存节点</li>
+<li>cpu 控制CPU占用率</li>
+<li>cpuacct 统计CPU 使用情况</li>
+<li>memory 限制内存的使用上限</li>
+<li>freezer 冻结Cgroup中的进程</li>
+<li>net_cls 配合tc限制网络宽带</li>
+<li>net_prio 设置进程的网络流量优先级</li>
+<li>huge_tlb 设置进程的网络流量优先级</li>
+<li>perf_event 允许HugeTLB工具基于Cgroup 分组做性能监控</li>
+</ol>
+</div><div class="post-copyright"><div class="post-copyright-author"><span class="post-copyright-meta">本文作者: </span><span class="post-copyright-info"><a href="mailto:undefined">月明远航</a></span></div><div class="post-copyright-type"><span class="post-copyright-meta">本文链接: </span><span class="post-copyright-info"><a href="https://ahkevinxy.github.io/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/">https://ahkevinxy.github.io/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/</a></span></div><div class="post-copyright-notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://ahkevinxy.github.io">月明远航</a>！</span></div></div></article><div id="pagination"><div class="next-post pull-right"><span class="line line-top"></span><span class="line line-right"></span><span class="line line-bottom"></span><span class="line line-left"></span><a href="/2019/12/27/page/"><span>Docker 开发指南</span><span>&nbsp;</span><i class="fas fa-angle-right"></i></a></div></div><!--div!= paginator()--></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fas fa-file-o"></i></span><span id="busuanzi_value_page_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2019 By 月明远航</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
