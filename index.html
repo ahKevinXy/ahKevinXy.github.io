@@ -16,7 +16,32 @@ if (isPassword) {
     error: '复制错误',
     noSupport: '浏览器不支持'
   }
-}</script><meta name="generator" content="Hexo 4.2.0"></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="https://avatars1.githubusercontent.com/u/31835335?s=460&amp;v=4"></div><div class="author-info-name">月明远航</div><div class="author-info-description">一个php开发者</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/ahKevinXy" target="_blank">GitHub<i class="icon-dot bg-color1"></i></a><a class="links-button button-hover" href="mailto:ah_kevin_xy@126.com" target="_blank">E-Mail<i class="icon-dot bg-color9"></i></a><a class="links-button button-hover" href="tencent://message/?uin=2502329620&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color6"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">3</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">3</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">3</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">月明远航</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/">mysql技术内幕与innodb存储引擎</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/MySQL/">MySQL</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book-mysql-InnoDb/">book mysql InnoDb</a></div></div><div class="post-content"><div class="main-content content"><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h4 id="第一章-MySQL体系结构和存储引擎"><a href="#第一章-MySQL体系结构和存储引擎" class="headerlink" title="第一章 MySQL体系结构和存储引擎"></a><a href="#MySQL体系结构和存储引擎">第一章 MySQL体系结构和存储引擎</a></h4><h4 id="第二章-InnoDB存储引擎之间的比较"><a href="#第二章-InnoDB存储引擎之间的比较" class="headerlink" title="第二章 InnoDB存储引擎之间的比较"></a><a href="#存储引擎之间的比较">第二章 InnoDB存储引擎之间的比较</a></h4><h4 id="第三章-文件"><a href="#第三章-文件" class="headerlink" title="第三章 文件"></a><a href="#文件">第三章 文件</a></h4><h4 id="第四章-表"><a href="#第四章-表" class="headerlink" title="第四章 表"></a><a href="#表">第四章 表</a></h4><h4 id="第五章-索引与算法"><a href="#第五章-索引与算法" class="headerlink" title="第五章 索引与算法"></a><a href="#索引与算法">第五章 索引与算法</a></h4><h4 id="第六章-锁"><a href="#第六章-锁" class="headerlink" title="第六章 锁"></a><a href="#锁">第六章 锁</a></h4><h4 id="第七章-事务"><a href="#第七章-事务" class="headerlink" title="第七章 事务"></a><a href="#事务">第七章 事务</a></h4><h4 id="第八章-备份与恢复"><a href="#第八章-备份与恢复" class="headerlink" title="第八章 备份与恢复"></a><a href="#备份与恢复">第八章 备份与恢复</a></h4><h4 id="第九章-性能调优"><a href="#第九章-性能调优" class="headerlink" title="第九章 性能调优"></a><a href="#性能调优">第九章 性能调优</a></h4><h4 id="第十章-InnoDb存储引擎源代码的编译"><a href="#第十章-InnoDb存储引擎源代码的编译" class="headerlink" title="第十章 InnoDb存储引擎源代码的编译"></a><a href="#源代码编译">第十章 InnoDb存储引擎源代码的编译</a></h4><h4 id="第一章-MySQL体系结构和存储引擎-1"><a href="#第一章-MySQL体系结构和存储引擎-1" class="headerlink" title="第一章 MySQL体系结构和存储引擎  "></a>第一章 MySQL体系结构和存储引擎  <span id='MySQL体系结构和存储引擎'></span></h4><h5 id="1-1-定义数据库和实例"><a href="#1-1-定义数据库和实例" class="headerlink" title="1.1 定义数据库和实例"></a>1.1 定义数据库和实例</h5><ul>
+}</script><meta name="generator" content="Hexo 4.2.0"></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="https://avatars1.githubusercontent.com/u/31835335?s=460&amp;v=4"></div><div class="author-info-name">月明远航</div><div class="author-info-description">一个php开发者</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/ahKevinXy" target="_blank">GitHub<i class="icon-dot bg-color5"></i></a><a class="links-button button-hover" href="mailto:ah_kevin_xy@126.com" target="_blank">E-Mail<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="tencent://message/?uin=2502329620&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color7"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">3</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">3</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">3</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">月明远航</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/">mysql技术内幕与innodb存储引擎</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/MySQL/">MySQL</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book-mysql-InnoDb/">book mysql InnoDb</a></div></div><div class="post-content"><div class="main-content content"><blockquote>
+<p>目录</p>
+</blockquote>
+<ul>
+<li><p><a href="#MySQL体系结构和存储引擎">第一章 MySQL体系结构和存储引擎</a></p>
+</li>
+<li><p><a href="#存储引擎之间的比较">第二章 InnoDB存储引擎之间的比较</a></p>
+</li>
+<li><p><a href="#文件">第三章 文件</a></p>
+</li>
+<li><p><a href="#表">第四章 表</a></p>
+</li>
+<li><p><a href="#索引与算法">第五章 索引与算法</a></p>
+</li>
+<li><p><a href="#锁">第六章 锁</a></p>
+</li>
+<li><p><a href="#事务">第七章 事务</a></p>
+</li>
+<li><p><a href="#备份与恢复">第八章 备份与恢复</a></p>
+</li>
+<li><p><a href="#性能调优">第九章 性能调优</a></p>
+</li>
+<li><p><a href="#源代码编译">第十章 InnoDb存储引擎源代码的编译</a></p>
+</li>
+</ul>
+<h2 id="第一章-MySQL体系结构和存储引擎"><a href="#第一章-MySQL体系结构和存储引擎" class="headerlink" title="第一章 MySQL体系结构和存储引擎  "></a>第一章 MySQL体系结构和存储引擎  <span id='MySQL体系结构和存储引擎'></span></h2><h3 id="定义数据库和实例"><a href="#定义数据库和实例" class="headerlink" title="定义数据库和实例"></a>定义数据库和实例</h3><ul>
 <li><p>数据库<br>  物理操作系统文件或其他形式文件类型的集合</p>
 </li>
 <li><p>数据库实例<br>  由数据库后台进程/线程以及一个共享内存区组成</p>
@@ -26,7 +51,21 @@ if (isPassword) {
 <p>  /etc/my.cnf /etc/mysql/my.cnf /usr/lcoal/mysql/etc/my.cnf ~/.my.cnf</p>
 </li>
 </ul>
-<h5 id="1-2-MySQL体系结构"><a href="#1-2-MySQL体系结构" class="headerlink" title="1.2 MySQL体系结构"></a>1.2 MySQL体系结构</h5></div></div><a class="button-hover more" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/">docker进阶与实战</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/Docker/">Docker</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book-docker/">book docker</a></div></div><div class="post-content"><div class="main-content content"><h3 id="docker-简介"><a href="#docker-简介" class="headerlink" title="docker 简介"></a>docker 简介</h3><h4 id="docker-架构图"><a href="#docker-架构图" class="headerlink" title="docker 架构图"></a>docker 架构图</h4><h4 id="功能与组件"><a href="#功能与组件" class="headerlink" title="功能与组件"></a>功能与组件</h4><ol>
+<h3 id="MySQL体系结构"><a href="#MySQL体系结构" class="headerlink" title="MySQL体系结构"></a>MySQL体系结构</h3><ul>
+<li>MySQL组成部分</li>
+</ul>
+<ol>
+<li>连接池组件</li>
+<li>管理服务与工具组件</li>
+<li>sql接口组件</li>
+<li>查询分析器组件</li>
+<li>优化器组件</li>
+<li>缓冲(Cache) 组件</li>
+<li>插件式存储引擎</li>
+<li>物理文件</li>
+</ol>
+<h3 id="MySQL-表存储引擎"><a href="#MySQL-表存储引擎" class="headerlink" title="MySQL 表存储引擎"></a>MySQL 表存储引擎</h3><h4 id="InnoDb-存储引擎"><a href="#InnoDb-存储引擎" class="headerlink" title="InnoDb 存储引擎"></a>InnoDb 存储引擎</h4><pre><code>InnoDB 存储引擎支持事务,主要面向在线事务处理(OLTP)方面的应用.其特点是行锁设计,支持外键,并支持类似Oracle 的非锁定读,默认情况下读取操作不会产生锁</code></pre><p>InnoDb 存储引擎将数据放在一个逻辑的表空间中,InnoDb使用多版本并发控制(MVCC)来获得高并发性,并且实现了SQL标准的4种隔离,默认为REPETABL级别.同时使用了一种 * next-key locking 的策略来避免幻读(phantom) * .此外InnoDb还提供了插入缓冲,二次写,自适应哈希索引,预读等高性能高可用的功能.<br>对于</p>
+</div></div><a class="button-hover more" href="/2019/12/28/mysql%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%E4%B8%8Einnodb%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/12/27/docker%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E6%88%98/">docker进阶与实战</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2019-12-28</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/Docker/">Docker</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/book-docker/">book docker</a></div></div><div class="post-content"><div class="main-content content"><h3 id="docker-简介"><a href="#docker-简介" class="headerlink" title="docker 简介"></a>docker 简介</h3><h4 id="docker-架构图"><a href="#docker-架构图" class="headerlink" title="docker 架构图"></a>docker 架构图</h4><h4 id="功能与组件"><a href="#功能与组件" class="headerlink" title="功能与组件"></a>功能与组件</h4><ol>
 <li>docker 客户端</li>
 <li>docker daemon</li>
 <li>docker 容器</li>
