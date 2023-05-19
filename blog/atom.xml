@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-05-14T00:00:00.000Z</updated>
+    <updated>2023-05-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CPU 详解]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/05/18/cpu</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/05/18/cpu"/>
+        <updated>2023-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[介绍]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="介绍">介绍<a href="#介绍" class="hash-link" aria-label="介绍的直接链接" title="介绍的直接链接">​</a></h2><p>中央处理器,简称 CPU( Center Processing Unit )</p><p>主要包括两个部分 <code>控制器</code> <code>运算器</code>,其中还包括 高速缓冲 存储器及实现它们之间联系的数据,控制的总线.电子计算机的三大核心部件(CPU,内存存储器,输入\输出设备).</p><p>中央处理器主要为处理指令,执行操作,控制时间,处理数据.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="i7">i7<a href="#i7" class="hash-link" aria-label="i7的直接链接" title="i7的直接链接">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="i5">i5<a href="#i5" class="hash-link" aria-label="i5的直接链接" title="i5的直接链接">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="i3">i3<a href="#i3" class="hash-link" aria-label="i3的直接链接" title="i3的直接链接">​</a></h2>]]></content>
+        <author>
+            <name>ahKevinXy</name>
+            <email>ahkevinxy@gmail.com</email>
+            <uri>https://github.com/ahKevinXy</uri>
+        </author>
+        <category label="CPU" term="CPU"/>
+        <category label="基础知识" term="基础知识"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[git  tag]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/05/14/git</id>

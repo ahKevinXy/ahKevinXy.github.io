@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[8950],{96917:function(a){a.exports=JSON.parse('{"label":"CPU","permalink":"/blog/tags/cpu","allTagsPath":"/blog/tags","count":1}')}}]);
