@@ -129,6 +129,17 @@ go 语言实现机器人推送消息</p></blockquote><ul><li>使用curl 工具</
             <category>letcode</category>
         </item>
         <item>
+            <title><![CDATA[Go 中的waitgroup]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/03/15/wait_group</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/03/15/wait_group</guid>
+            <pubDate>Tue, 07 Mar 2023 13:09:13 GMT</pubDate>
+            <description><![CDATA[Go 中的waitgroup]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="什么是waitgroup">什么是WaitGroup<a href="#什么是waitgroup" class="hash-link" aria-label="什么是WaitGroup的直接链接" title="什么是WaitGroup的直接链接">​</a></h2><p><code>WaitGroup</code> 是同步goroutines的一种有效方式，</p><p><code>WaitGroup</code> 是通过调用标准库<code>sync</code> 包</p><div class="language-go codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-go codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">var</span><span class="token plain"> wg sync</span><span class="token operator" style="color:#393A34">*</span><span class="token plain">WaitGroup</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>WaitGroup 有三个重要的方法</p><ol><li>Add: 添加到你需要等待的goroutines的总量上</li><li>Done: 从你需要等待的goroutines上减除1</li><li>Wait: 阻止代码进行进行下去，直到所有的goroutines全部执行完成</li></ol>]]></content:encoded>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+            <category>Go</category>
+            <category>Go基础知识</category>
+        </item>
+        <item>
             <title><![CDATA[Go defer 详解]]></title>
             <link>https://ahkevinxy.github.io/blog/2023/03/07/index</link>
             <guid>https://ahkevinxy.github.io/blog/2023/03/07/index</guid>
@@ -159,17 +170,6 @@ go 语言实现机器人推送消息</p></blockquote><ul><li>使用curl 工具</
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="viper"><a href="https://github.com/spf13/viper" target="_blank" rel="noopener noreferrer">viper</a><a href="#viper" class="hash-link" aria-label="viper的直接链接" title="viper的直接链接">​</a></h2><p>Go configuration with fangs</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="cobra"><a href="https://github.com/spf13/cobra" target="_blank" rel="noopener noreferrer">Cobra</a><a href="#cobra" class="hash-link" aria-label="cobra的直接链接" title="cobra的直接链接">​</a></h2><p>A Commander for modern Go CLI interactions</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="pflag"><a href="https://github.com/spf13/pflag" target="_blank" rel="noopener noreferrer">Pflag</a><a href="#pflag" class="hash-link" aria-label="pflag的直接链接" title="pflag的直接链接">​</a></h2><p>Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.</p>]]></content:encoded>
             <author>ahkevinxy@gmail.com (ahKevinXy)</author>
             <category>Go</category>
-        </item>
-        <item>
-            <title><![CDATA[Go 中的waitgroup]]></title>
-            <link>https://ahkevinxy.github.io/blog/2023/03/15/wait_group</link>
-            <guid>https://ahkevinxy.github.io/blog/2023/03/15/wait_group</guid>
-            <pubDate>Tue, 07 Mar 2023 13:09:13 GMT</pubDate>
-            <description><![CDATA[Go 中的waitgroup]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="什么是waitgroup">什么是WaitGroup<a href="#什么是waitgroup" class="hash-link" aria-label="什么是WaitGroup的直接链接" title="什么是WaitGroup的直接链接">​</a></h2><p><code>WaitGroup</code> 是同步goroutines的一种有效方式，</p><p><code>WaitGroup</code> 是通过调用标准库<code>sync</code> 包</p><div class="language-go codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-go codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">var</span><span class="token plain"> wg sync</span><span class="token operator" style="color:#393A34">*</span><span class="token plain">WaitGroup</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>WaitGroup 有三个重要的方法</p><ol><li>Add: 添加到你需要等待的goroutines的总量上</li><li>Done: 从你需要等待的goroutines上减除1</li><li>Wait: 阻止代码进行进行下去，直到所有的goroutines全部执行完成</li></ol>]]></content:encoded>
-            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
-            <category>Go</category>
-            <category>Go基础知识</category>
         </item>
         <item>
             <title><![CDATA[资源汇聚]]></title>
