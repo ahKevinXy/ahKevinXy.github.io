@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[48046],{60114:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/go/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":14,"previousPage":"/blog/tags/go","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
