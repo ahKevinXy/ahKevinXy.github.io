@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[82695],{83225:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/\u7fa4\u673a\u5668\u4eba","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
