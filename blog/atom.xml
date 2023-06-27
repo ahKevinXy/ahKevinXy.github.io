@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-06-09T00:00:00.000Z</updated>
+    <updated>2023-06-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[命令行常用快捷键及汇总]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/06/27/terminal_command</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/06/27/terminal_command"/>
+        <updated>2023-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[命令行常用终端快捷键及汇总 控制面板快捷操作 终端快捷操作 终端快捷键]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="常用快捷键">常用快捷键<a href="#常用快捷键" class="hash-link" aria-label="常用快捷键的直接链接" title="常用快捷键的直接链接">​</a></h2><ul><li><code>tab</code> 命令补全 文件名补全</li><li><code>ctrl + c </code> 取消当前命令 </li><li><code>ctrl + z</code> 后端运行</li><li><code>ctrl + s</code> 暂停当前终端</li><li><code>ctrl + q</code> 恢复当前终端</li><li><code>ctrl + a </code> 光标移动到行首</li><li><code>ctrl + e</code> 光标移动到行尾</li><li><code>ctrl + f</code> 光标移动向前 下个单词</li><li><code>ctrl + b</code> 光标返回 移动前一个单词</li><li><code>ctrl + u</code> 删除光标所在位置左边与行首之间的所有字符</li><li><code>ctrl + k</code> 删除光标所在位置与行尾所有字段</li><li><code>ctrl + w</code> 删除光标所在位置前任意个空格及其前的一个单词，或光标所在位置左边至所在单词首的所有字符。</li><li><code>alt + d</code> 删除光标所在位置后任意个空格及其后的一个单词，或光标所在位置至所在单词尾的所有字符</li><li><code>ctrl + y </code> 复制你上一次删除或剪切的条目</li><li><code>alt +u</code> 转换光标所在位置后的一个单词为大写，或光标所在单词位置至此单词尾的字母为大写</li><li><code>alt +i </code> 转换光标所在位置后的一个单词为小写，或光标所在单词位置至此单词尾的字母为小写</li><li><code>alt + .</code> 在光标处输入最近历史命令的最后一个字符串，如果此命令只有单个字符串，则输入此字符串。可持续使用以持续切换为更前的命令</li><li><code>ctrl + r </code> 依据用户在：提示符后的输入字符串匹配查找 history 记录中命令条目</li><li><code>ctrl + g</code>   从历史搜索模式（Ctrl + r）退出</li><li></li></ul>]]></content>
+        <author>
+            <name>ahKevinXy</name>
+            <email>ahkevinxy@gmail.com</email>
+            <uri>https://github.com/ahKevinXy</uri>
+        </author>
+        <category label="cmd" term="cmd"/>
+        <category label="基础知识" term="基础知识"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[github workflows]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/06/09/github-workflows</id>
