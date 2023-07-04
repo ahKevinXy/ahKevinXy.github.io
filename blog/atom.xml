@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-06-27T00:00:00.000Z</updated>
+    <updated>2023-07-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Saas IaaS Paas 区别]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/04/saas</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/04/saas"/>
+        <updated>2023-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Saas IaaS Paas 区别 与介绍]]></summary>
+        <content type="html"><![CDATA[<h1>Saas IaaS Paas 区别</h1><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="saas-软件即服务">Saas (软件即服务)<a href="#saas-软件即服务" class="hash-link" aria-label="Saas (软件即服务)的直接链接" title="Saas (软件即服务)的直接链接">​</a></h2><blockquote><p>SaaS提供商为企业搭建信息化所需要的所有网络基础设施及软件、硬件运作平台，并负责所有前期的实施、后期的维护等一系列服务，企业无需购买软硬件、建设机房、招聘IT人员，即可通过互联网使用信息系统</p></blockquote><p>钉钉，企业微信</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="iaas-基础架构即服务">Iaas (基础架构即服务)<a href="#iaas-基础架构即服务" class="hash-link" aria-label="Iaas (基础架构即服务)的直接链接" title="Iaas (基础架构即服务)的直接链接">​</a></h2><blockquote><p>基于云的服务，按需付费，用于存储，网络和虚拟化等服务</p></blockquote><p>AWS 阿里云 腾讯云 等</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="paas-平台即服务">Paas (平台即服务)<a href="#paas-平台即服务" class="hash-link" aria-label="Paas (平台即服务)的直接链接" title="Paas (平台即服务)的直接链接">​</a></h2><blockquote><p>Internet上可用的硬件和软件工具</p></blockquote><p>Microsoft Windows Azure，百度BAE、新浪SAE、京东云擎JAE</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="iaaspaas和saas之间有什么区别">IaaS，PaaS和SaaS之间有什么区别？<a href="#iaaspaas和saas之间有什么区别" class="hash-link" aria-label="IaaS，PaaS和SaaS之间有什么区别？的直接链接" title="IaaS，PaaS和SaaS之间有什么区别？的直接链接">​</a></h2><p>在托管定制应用程序时，IaaS可以为您提供最大程度的灵活性，并为数据存储提供通用数据中心。</p><p>PaaS通常建立在IaaS平台之上，以减少系统管理的需求。它使您可以专注于应用程序开发，而不是基础架构管理。</p><p>SaaS提供满足特定业务需求的即用型解决方案。大多数现代SaaS平台都建立在IaaS或PaaS平台上。</p><p>您可能选择从一种云计算服务模型开始，或者找到对这三种模型的需求：这取决于业务的规模和复杂性</p>]]></content>
+        <author>
+            <name>ahKevinXy</name>
+            <email>ahkevinxy@gmail.com</email>
+            <uri>https://github.com/ahKevinXy</uri>
+        </author>
+        <category label="saas" term="saas"/>
+        <category label="知识" term="知识"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[命令行常用快捷键及汇总]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/06/27/terminal_command</id>
