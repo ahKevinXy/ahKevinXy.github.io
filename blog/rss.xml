@@ -4,10 +4,53 @@
         <title>ahKevinXy Blog</title>
         <link>https://ahkevinxy.github.io/blog</link>
         <description>ahKevinXy Blog</description>
-        <lastBuildDate>Wed, 05 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[深入浅出 前端 layout]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/07/08/layout</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/07/08/layout</guid>
+            <pubDate>Sat, 08 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[如何解决 前端 layout 布局问题,深入剖析 前端布局问题]]></description>
+            <content:encoded><![CDATA[<p>站在一个后端开发者的角度,写css 其实是一个非常痛点的问题
+如何更好的使用css 进行页面布局一直困扰着我
+本篇文章主要从前端基本的layout 布局进行深入学习 css </p>]]></content:encoded>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+            <category>css</category>
+            <category>前端</category>
+            <category>基础知识</category>
+        </item>
+        <item>
+            <title><![CDATA[初探 webvitals]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/07/08/webvitals</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/07/08/webvitals</guid>
+            <pubDate>Sat, 08 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[web-vitals是Google发起的，旨在提供各种质量信号的统一指南，我们相信这些质量信号对提供出色的网络用户体验至关重要。多年来，Google 提供了许多性能测量和性能报告工具。一些开发者对这些工具的使用十分在行，而另一些开发者则发现大量的工具和指标令人应接不暇。]]></description>
+            <content:encoded><![CDATA[<p>web-vitals是Google发起的，旨在提供各种质量信号的统一指南，我们相信这些质量信号对提供出色的网络用户体验至关重要。多年来，Google 提供了许多性能测量和性能报告工具。一些开发者对这些工具的使用十分在行，而另一些开发者则发现大量的工具和指标令人应接不暇。</p><p>总之，Web Vitals则是希望提出一些标准，来帮助开发者去测量，优化页面，给到用户更好的体验。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="简单介绍六个指标">简单介绍六个指标<a href="#简单介绍六个指标" class="hash-link" aria-label="简单介绍六个指标的直接链接" title="简单介绍六个指标的直接链接">​</a></h2><ol><li>FCP-反映的是从页面开始加载到页面视口上最大的图片或者文本块渲染的时间。</li><li>TTI-反映从页面加载开始到页面处于完全可交互状态所花费的时间。</li><li>Speed Index-页面内容可见填充的速度。</li><li>TBT-测量首次内容绘制 (FCP)首次内容绘制和 (TTI)之间的总时间，这期间，主线程被阻塞的时间过长，无法作出输入响应。</li><li>LCP-最大内容绘制，用于监控网页可视区内“绘制面积”最大的元素开始呈现在屏幕上的时间点。</li><li>CLS-反映网页布局在加载期间的偏移量。得分范围是 0–1，其中 0 表示没有偏移，1 表示最大偏移。</li></ol>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Goland 使用技巧]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/07/06/goland</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/07/06/goland</guid>
+            <pubDate>Thu, 06 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Goland 最强实用技巧,goland 快捷键 goland 如何高效开发]]></description>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+            <category>go</category>
+            <category>Goland</category>
+        </item>
+        <item>
+            <title><![CDATA[免费个人blog]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/07/05/blog</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/07/05/blog</guid>
+            <pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[免费blog 清单]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="gatsby">Gatsby<a href="#gatsby" class="hash-link" aria-label="Gatsby的直接链接" title="Gatsby的直接链接">​</a></h2><p>Gatsby 包含了很多功能，有一个丰富的插件生态系统，并且能够做Docusaurus所做的一切。 当然，这带来了较陡的学习曲线。 Gatsby 在许多方面做得都很出色，适合构建许多类型的网站。 另一方面，Docusaurus 力图将一件事做到尽善尽美——成为最好的内容撰写与发布工具。</p><p>GraphQL 是 Gatsby 的核心，但搭建 Gatsby 网站不一定要用到它。 而在大多数静态网站中，你更不需要 GraphQL 所提供的灵活性。</p><p>Docusaurus 2 的许多方面都被 Gatsby 的出色之处所启发，这是一个优秀的替代品。</p><p>Docz 是一款用于构建文档网站的Gatsby主题。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="nextjs">Next.js<a href="#nextjs" class="hash-link" aria-label="Next.js的直接链接" title="Next.js的直接链接">​</a></h2><p> 它可以帮助你构建出色的文档网站，但它并不着重于文档功能本身，而且需要你手动实现 Docusaurus 所自带的功能。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="vuepress">VuePress<a href="#vuepress" class="hash-link" aria-label="VuePress的直接链接" title="VuePress的直接链接">​</a></h2><p>VuePress 是 Vue 驱动的，而 Docusaurus 则是 React 驱动的。 如果你想要一个基于 Vue 的解决方案，VuePress 是个不错的选择。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="mkdocs">MkDocs<a href="#mkdocs" class="hash-link" aria-label="MkDocs的直接链接" title="MkDocs的直接链接">​</a></h2><p>MkDocs is a popular Python static site generator with value propositions similar to Docusaurus.</p><p>如果你不需要单页应用，也不打算利用 React 的话，这是个好选择。</p><p>Material for MkDocs is a beautiful theme.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="docsify">Docsify<a href="#docsify" class="hash-link" aria-label="Docsify的直接链接" title="Docsify的直接链接">​</a></h2><p>Docsify makes it easy to create a documentation website, but is not a static-site generator and is not SEO friendly.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="gitbook">Gitbook<a href="#gitbook" class="hash-link" aria-label="Gitbook的直接链接" title="Gitbook的直接链接">​</a></h2><p>GitBook has a very clean design and has been used by many open source projects. 但随着它把重点逐渐从开源工具转向商业产品，它不再符合开源项目文档网站的需要。 结果就是，许多项目转用了其他产品。 You may read about Redux's switch to Docusaurus here.</p><p>目前，GitBook 只对开源和非营利团队免费</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="jekyll">Jekyll<a href="#jekyll" class="hash-link" aria-label="Jekyll的直接链接" title="Jekyll的直接链接">​</a></h2><p>Jekyll is one of the most mature static site generators around and has been a great tool to use — in fact, before Docusaurus, most of Facebook's Open Source websites are/were built on Jekyll! 它的上手难度极低。 在静态网站构建方面，我们想要为你带来和 Jekyll 类似的开发者体验。</p>]]></content:encoded>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+            <category>blog</category>
+            <category>免费</category>
+        </item>
         <item>
             <title><![CDATA[网络货运系统 搭建总结]]></title>
             <link>https://ahkevinxy.github.io/blog/2023/07/05/network_freight</link>
@@ -221,15 +264,6 @@ go 语言实现机器人推送消息</p></blockquote><ul><li>使用curl 工具</
             <author>ahkevinxy@gmail.com (ahKevinXy)</author>
         </item>
         <item>
-            <title><![CDATA[专业英语翻译]]></title>
-            <link>https://ahkevinxy.github.io/blog/english</link>
-            <guid>https://ahkevinxy.github.io/blog/english</guid>
-            <pubDate>Tue, 07 Mar 2023 13:09:13 GMT</pubDate>
-            <description><![CDATA[专业英语翻译]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="微服务-microservice">微服务 Microservice<a href="#微服务-microservice" class="hash-link" aria-label="微服务 Microservice的直接链接" title="微服务 Microservice的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="栈stack">(栈)Stack<a href="#栈stack" class="hash-link" aria-label="(栈)Stack的直接链接" title="(栈)Stack的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="案例-case">案例 case<a href="#案例-case" class="hash-link" aria-label="案例 case的直接链接" title="案例 case的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="例子-example">例子 example<a href="#例子-example" class="hash-link" aria-label="例子 example的直接链接" title="例子 example的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="自由职业者-freelancer------work-工作">自由职业者 freelancer  --  work （工作）<a href="#自由职业者-freelancer------work-工作" class="hash-link" aria-label="自由职业者 freelancer  --  work （工作）的直接链接" title="自由职业者 freelancer  --  work （工作）的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="硬件-hardware">硬件 hardware<a href="#硬件-hardware" class="hash-link" aria-label="硬件 hardware的直接链接" title="硬件 hardware的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="意见反馈-feedback">意见反馈 feedback<a href="#意见反馈-feedback" class="hash-link" aria-label="意见反馈 feedback的直接链接" title="意见反馈 feedback的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="概要-summary">概要 summary<a href="#概要-summary" class="hash-link" aria-label="概要 summary的直接链接" title="概要 summary的直接链接">​</a></h2>]]></content:encoded>
-            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
-        </item>
-        <item>
             <title><![CDATA[白嫖的冷知识]]></title>
             <link>https://ahkevinxy.github.io/blog/free</link>
             <guid>https://ahkevinxy.github.io/blog/free</guid>
@@ -238,6 +272,15 @@ go 语言实现机器人推送消息</p></blockquote><ul><li>使用curl 工具</
             <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="开放-图片生成器-any-idea-you-can-imagine-and-create">开放 图片生成器 any idea you can imagine and create<a href="#开放-图片生成器-any-idea-you-can-imagine-and-create" class="hash-link" aria-label="开放 图片生成器 any idea you can imagine and create的直接链接" title="开放 图片生成器 any idea you can imagine and create的直接链接">​</a></h2><p><a href="https://undraw.co/" target="_blank" rel="noopener noreferrer">undraw</a></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="托管平台-几乎无限制使用">托管平台 (几乎无限制使用)<a href="#托管平台-几乎无限制使用" class="hash-link" aria-label="托管平台 (几乎无限制使用)的直接链接" title="托管平台 (几乎无限制使用)的直接链接">​</a></h2><p><a href="https://codeup.aliyun.com/" target="_blank" rel="noopener noreferrer">阿里codeup</a></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="远程编辑器">远程编辑器<a href="#远程编辑器" class="hash-link" aria-label="远程编辑器的直接链接" title="远程编辑器的直接链接">​</a></h2><p><a href="https://ide.aliyun.com/" target="_blank" rel="noopener noreferrer">阿里ide</a></p>]]></content:encoded>
             <author>ahkevinxy@gmail.com (ahKevinXy)</author>
             <category>免费</category>
+        </item>
+        <item>
+            <title><![CDATA[专业英语翻译]]></title>
+            <link>https://ahkevinxy.github.io/blog/english</link>
+            <guid>https://ahkevinxy.github.io/blog/english</guid>
+            <pubDate>Tue, 07 Mar 2023 13:09:13 GMT</pubDate>
+            <description><![CDATA[专业英语翻译]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="微服务-microservice">微服务 Microservice<a href="#微服务-microservice" class="hash-link" aria-label="微服务 Microservice的直接链接" title="微服务 Microservice的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="栈stack">(栈)Stack<a href="#栈stack" class="hash-link" aria-label="(栈)Stack的直接链接" title="(栈)Stack的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="案例-case">案例 case<a href="#案例-case" class="hash-link" aria-label="案例 case的直接链接" title="案例 case的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="例子-example">例子 example<a href="#例子-example" class="hash-link" aria-label="例子 example的直接链接" title="例子 example的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="自由职业者-freelancer------work-工作">自由职业者 freelancer  --  work （工作）<a href="#自由职业者-freelancer------work-工作" class="hash-link" aria-label="自由职业者 freelancer  --  work （工作）的直接链接" title="自由职业者 freelancer  --  work （工作）的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="硬件-hardware">硬件 hardware<a href="#硬件-hardware" class="hash-link" aria-label="硬件 hardware的直接链接" title="硬件 hardware的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="意见反馈-feedback">意见反馈 feedback<a href="#意见反馈-feedback" class="hash-link" aria-label="意见反馈 feedback的直接链接" title="意见反馈 feedback的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="概要-summary">概要 summary<a href="#概要-summary" class="hash-link" aria-label="概要 summary的直接链接" title="概要 summary的直接链接">​</a></h2>]]></content:encoded>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
         </item>
         <item>
             <title><![CDATA[letcode 打卡]]></title>
@@ -259,21 +302,21 @@ go 语言实现机器人推送消息</p></blockquote><ul><li>使用curl 工具</
             <category>letcode</category>
         </item>
         <item>
-            <title><![CDATA[优秀博客]]></title>
-            <link>https://ahkevinxy.github.io/blog/stars</link>
-            <guid>https://ahkevinxy.github.io/blog/stars</guid>
-            <pubDate>Tue, 07 Mar 2023 13:09:13 GMT</pubDate>
-            <description><![CDATA[开源软件]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/balloonwj/CppGuide" target="_blank" rel="noopener noreferrer">CppGuide</a></p><p><a href="https://csdiy.wiki/" target="_blank" rel="noopener noreferrer">陈天奇,cs入门一条龙服务</a></p>]]></content:encoded>
-            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
-        </item>
-        <item>
             <title><![CDATA[TODO]]></title>
             <link>https://ahkevinxy.github.io/blog/todos</link>
             <guid>https://ahkevinxy.github.io/blog/todos</guid>
             <pubDate>Tue, 07 Mar 2023 13:09:13 GMT</pubDate>
             <description><![CDATA[* go unsafe 2023-3-15 2326]]></description>
             <content:encoded><![CDATA[<ul><li>go unsafe 2023-3-15 23:22:26</li><li>Go异步任务处理解决方案：Asynq 2023-3-15 23:21:25</li><li>go 测试 testing 2023-3-15 23:21:30</li><li>go 1.18后泛型学习 2023-3-15 23:21:35</li><li><a href="https://www.cloudwego.io/zh/" target="_blank" rel="noopener noreferrer">CloudWeGo</a> 学习 2023-3-15 23:19:41</li><li>gin通过embed 打包静态文件 2023-3-15 23:18:05</li></ul>]]></content:encoded>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+        </item>
+        <item>
+            <title><![CDATA[优秀博客]]></title>
+            <link>https://ahkevinxy.github.io/blog/stars</link>
+            <guid>https://ahkevinxy.github.io/blog/stars</guid>
+            <pubDate>Tue, 07 Mar 2023 13:09:13 GMT</pubDate>
+            <description><![CDATA[开源软件]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/balloonwj/CppGuide" target="_blank" rel="noopener noreferrer">CppGuide</a></p><p><a href="https://csdiy.wiki/" target="_blank" rel="noopener noreferrer">陈天奇,cs入门一条龙服务</a></p>]]></content:encoded>
             <author>ahkevinxy@gmail.com (ahKevinXy)</author>
         </item>
         <item>
