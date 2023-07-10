@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-08T00:00:00.000Z</updated>
+    <updated>2023-07-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[金融支付系统]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/10/payment</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/10/payment"/>
+        <updated>2023-07-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[金融支付系统架构设计]]></summary>
+        <author>
+            <name>ahKevinXy</name>
+            <email>ahkevinxy@gmail.com</email>
+            <uri>https://github.com/ahKevinXy</uri>
+        </author>
+        <category label="payment" term="payment"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[深入浅出 前端 layout]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/08/layout</id>
