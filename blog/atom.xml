@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-11T00:00:00.000Z</updated>
+    <updated>2023-07-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[线程池的使用]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/13/线程池的使用</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/13/线程池的使用"/>
+        <updated>2023-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1、进程和线程的区别]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1进程和线程的区别">1、进程和线程的区别<a href="#1进程和线程的区别" class="hash-link" aria-label="1、进程和线程的区别的直接链接" title="1、进程和线程的区别的直接链接">​</a></h2><ul><li>进程：进程是资源(CPU、内存等)分配的基本单位，它是程序执行时的一个实例。</li><li>线程：线程是一条执行路径，是程序执行时的最小单位，它是进程的一个执行流，是CPU调度和分派的基本单位，一个进程可以由很多个线程组成，线程间共享进程的所有资源，每个线程有自己的堆栈和局部变量。</li></ul><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2线程池threadpoolexecutor">2、线程池：ThreadPoolExecutor<a href="#2线程池threadpoolexecutor" class="hash-link" aria-label="2、线程池：ThreadPoolExecutor的直接链接" title="2、线程池：ThreadPoolExecutor的直接链接">​</a></h2><table><thead><tr><th>线程池参数</th><th>类型</th><th>参数理解</th></tr></thead><tbody><tr><td>corePoolSize</td><td>int</td><td>核心线程数线程数定义了最小可以同时运行的线程数量</td></tr><tr><td>maximumPoolSize</td><td>int</td><td>当队列中存放的任务达到队列容量的时候，当前可以同时运行的线程数量变为最大线程数。</td></tr><tr><td>workQueue</td><td>BlockingQueue<code>&lt;Runnable&gt;</code></td><td>当新任务来的时候会先判断当前运行的线程数量是否达到核心线程数，如果达到的话，新任务就会被存放在队列中。</td></tr><tr><td>keepAliveTime</td><td>long</td><td>当线程池中的线程数量大于&nbsp;corePoolSize&nbsp;的时候，如果这时没有新的任务提交，核心线程外的线程不会立即销毁，而是会等待，直到等待的时间超过了keepAliveTime才会被回收销毁。</td></tr><tr><td>unit</td><td>TimeUnit</td><td>keepAliveTime&nbsp;参数的时间单位。</td></tr><tr><td>threadFactory</td><td>ThreadFactory</td><td>executor 创建新线程的时候会用到。</td></tr><tr><td>handler</td><td>RejectedExecutionHandler</td><td>饱和策略。</td></tr></tbody></table><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3线程池大小的确定">3、线程池大小的确定<a href="#3线程池大小的确定" class="hash-link" aria-label="3、线程池大小的确定的直接链接" title="3、线程池大小的确定的直接链接">​</a></h2><ul><li>有一个简单并且适用面比较广的公式：</li><li>CPU 密集型任务(N+1)：&nbsp;这种任务消耗的主要是 CPU 资源，可以将线程数设置为 N（CPU 核心数）+1，比 CPU 核心数多出来的一个线程是为了防止线程偶发的缺页中断，或者其它原因导致的任务暂停而带来的影响。一旦任务暂停，CPU 就会处于空闲状态，而在这种情况下多出来的一个线程就可以充分利用 CPU 的空闲时间。</li><li>I/O 密集型任务(2N)：&nbsp;这种任务应用起来，系统会用大部分的时间来处理 I/O 交互，而线程在处理 I/O 的时间段内不会占用 CPU 来处理，这时就可以将 CPU 交出给其它线程使用。因此在 I/O 密集型任务的应用中，我们可以多配置一些线程，具体的计算方法是 2N。</li></ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[开源网络货运平台]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/11/opensource_network_freight</id>
