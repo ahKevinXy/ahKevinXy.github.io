@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-15T00:00:00.000Z</updated>
+    <updated>2023-07-16T21:48:40.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[如何使用 warp+的24PB 流量账号]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/16/warp</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/16/warp"/>
+        <updated>2023-07-16T21:48:40.000Z</updated>
+        <summary type="html"><![CDATA[如何轻松使 warp+ 获取 24PB 流量账号]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="下载-warp-客户端">下载 warp 客户端<a href="#下载-warp-客户端" class="hash-link" aria-label="下载 warp 客户端的直接链接" title="下载 warp 客户端的直接链接">​</a></h2><p><a href="https://1.1.1.1/" target="_blank" rel="noopener noreferrer">下载地址</a></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="安装-warp">安装 warp<a href="#安装-warp" class="hash-link" aria-label="安装 warp的直接链接" title="安装 warp的直接链接">​</a></h2><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="获取步骤">获取步骤<a href="#获取步骤" class="hash-link" aria-label="获取步骤的直接链接" title="获取步骤的直接链接">​</a></h2><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="通过接口的形式获取-1个-g-流量">通过接口的形式获取 1个 G 流量<a href="#通过接口的形式获取-1个-g-流量" class="hash-link" aria-label="通过接口的形式获取 1个 G 流量的直接链接" title="通过接口的形式获取 1个 G 流量的直接链接">​</a></h3><ol><li>打开这个项目: <a href="https://replit.com/@misaka-blog/warp-key-generator" target="_blank" rel="noopener noreferrer">https://replit.com/@misaka-blog/warp-key-generator</a> ，点击绿色的“run”按钮</li></ol><p><img loading="lazy" alt="查看图片" src="/assets/images/1-0c73997f1e7419d698e495454ac02532.jpeg" width="2880" height="1800" class="img_ev3q"></p><ol start="2"><li>输入生成的密钥数量，然后回车
+<img loading="lazy" alt="查看图片" src="/assets/images/2-a4acc58a6779801aac1105ac3261f7a9.jpeg" width="2880" height="1800" class="img_ev3q"></li><li>生成的密钥将会显示在控制台上面，复制粘贴备用</li></ol><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="获取-24pb-流量">获取 24PB 流量<a href="#获取-24pb-流量" class="hash-link" aria-label="获取 24PB 流量的直接链接" title="获取 24PB 流量的直接链接">​</a></h3><ol><li><p>打开 Telegram</p></li><li><p>打开这个TG频道：<a href="https://t.me/warpplus" target="_blank" rel="noopener noreferrer">@warpplus</a>，找到频道最新发布的WARP+的账户密钥
+<img loading="lazy" alt="查看图片" src="/assets/images/3-47b6302de45b0692ee2616524ce51a80.png" width="1988" height="1228" class="img_ev3q"></p></li><li><p>也可以通过这个TG Bot：<a href="https://t.me/generatewarpplusbot" target="_blank" rel="noopener noreferrer">@generatewarpplusbot</a>，生成一个自己独有的WARP+账户密钥
+<img loading="lazy" alt="查看图片" src="/assets/images/4-b9bf7d13912e9327b7c918c3680c0856.png" width="874" height="809" class="img_ev3q"></p></li><li><p>按照下方步骤，输入频道或者是机器人提供的WARP+密钥</p></li><li><p>这就白嫖了一个WARP+ 24PB流量的账户了
+<img loading="lazy" alt="查看图片" src="/assets/images/5-4d1e9e25e69ef683b536c71216b0b5a2.png" width="2314" height="900" class="img_ev3q">
+<img loading="lazy" alt="查看图片" src="/assets/images/6-2d69ebc3c867625923760a3e9523894e.png" width="1712" height="1238" class="img_ev3q"></p></li></ol>]]></content>
+        <author>
+            <name>ahKevinXy</name>
+            <email>ahkevinxy@gmail.com</email>
+            <uri>https://github.com/ahKevinXy</uri>
+        </author>
+        <category label="教程" term="教程"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java接口与抽象类的区别]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/16/Java-1</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/16/Java-1"/>
+        <updated>2023-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[接口与抽象类的区别]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="相同点">相同点<a href="#相同点" class="hash-link" aria-label="相同点的直接链接" title="相同点的直接链接">​</a></h2><ul><li>（1）都不能被实例化</li><li>（2）接口的实现类或抽象类的子类都只有实现了接口或抽象类中的方法后才能实例化。</li></ul><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="不同点">不同点<a href="#不同点" class="hash-link" aria-label="不同点的直接链接" title="不同点的直接链接">​</a></h2><ul><li>（1）接口只有定义，不能有方法的实现，java 1.8中可以定义default方法体，而抽象类可以有定义与实现，方法可在抽象类中实现。</li><li>（2）实现接口的关键字为implements，继承抽象类的关键字为extends。一个类可以实现多个接口，但一个类只能继承一个抽象类。所以，使用接口可以间接地实现多重继承。</li><li>（3）接口强调特定功能的实现，而抽象类强调所属关系。</li><li>（4）接口成员变量默认为public static final，必须赋初值，不能被修改；其所有的成员方法都是public、abstract的。抽象类中成员变量默认default，可在子类中被重新定义，也可被重新赋值；抽象方法被abstract修饰，不能被private、static、synchronized和native等修饰，必须以分号结尾，不带花括号。</li></ul>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="Java" term="Java"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Spring 启动时执行指定方法]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/15/Spring-1 </id>
