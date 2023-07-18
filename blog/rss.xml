@@ -20,6 +20,16 @@
             <category>admin</category>
         </item>
         <item>
+            <title><![CDATA[SpringBoot自动配置实现原理]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/07/17/autoconfig-1</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/07/17/autoconfig-1</guid>
+            <pubDate>Mon, 17 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[自动配置]]></description>
+            <content:encoded><![CDATA[<p><code>SpringBoot</code> 定义了一套接口规范，这套规范规定：<code>SpringBoot</code> 在启动时会扫描外部引用 jar 包中的 <code>META-INF/spring.factories</code> 文件，将文件中配置的类型信息加载到 Spring 容器（此处涉及到 JVM 类加载机制与 <code>Spring</code> 的容器知识），并执行类中定义的各种操作。对于外部 jar 来说，只需要按照 <code>SpringBoot</code> 定义的标准，就能将自己的功能装置进 <code>SpringBoot</code></p><ul><li><code>@SpringBootApplication</code> 看作是&nbsp;<code>@Configuration</code>、<code>@EnableAutoConfiguration</code>、<code>@ComponentScan</code>&nbsp;注解的集合</li><li><code>@EnableAutoConfiguration</code>：启用 <code>SpringBoot</code> 的自动配置机制</li><li><code>@Configuration</code>：允许在上下文中注册额外的 bean 或导入其他配置类</li><li><code>@ComponentScan</code>： 扫描被 <code>@Component</code>&nbsp;(<code>@Service</code>,<code>@Controller</code>)注解的 bean，注解默认会扫描启动类所在的包下所有的类 ，可以自定义不扫描某些 bean。如下图所示，容器中将排除TypeExcludeFilter和AutoConfigurationExcludeFilter。</li></ul><p>总结：<code>SpringBoot</code> 通过 <code>@EnableAutoConfiguration</code> 开启自动装配，通过 <code>SpringFactoriesLoader</code> 最终加载 <code>META-INF/spring.factories</code> 中的自动配置类实现自动装配，自动配置类其实就是通过<code>@Conditional</code> 按需加载的配置类，想要其生效必须引入   <code>spring-boot-starter-xxx</code> 包实现起步依赖</p>]]></content:encoded>
+            <author>137472591@qq.com (flankx)</author>
+            <category>SpringBoot</category>
+        </item>
+        <item>
             <title><![CDATA[如何使用 warp+的24PB 流量账号]]></title>
             <link>https://ahkevinxy.github.io/blog/2023/07/16/warp</link>
             <guid>https://ahkevinxy.github.io/blog/2023/07/16/warp</guid>
