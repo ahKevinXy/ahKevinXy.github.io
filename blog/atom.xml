@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-18T00:00:00.000Z</updated>
+    <updated>2023-07-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[synchronized & ReentrantLock 区别]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/19/lock-1</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/19/lock-1"/>
+        <updated>2023-07-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[锁的区别]]></summary>
+        <content type="html"><![CDATA[<table><thead><tr><th>类别</th><th>synchronized</th><th>ReentrantLock</th></tr></thead><tbody><tr><td>存在层次</td><td>Java的关键字，JVM层面</td><td>是一个类</td></tr><tr><td>锁的释放</td><td>1.以获取锁的线程执行同步代码，释放锁 2.线程执行发生一次，JVM会让线程释放锁</td><td>在finally中必须释放锁，不然容易造成线程死锁</td></tr><tr><td>锁的获取</td><td>加锁A线程获得锁，B线程等待，如果A阻塞，B线程会一直等待</td><td>分情况而定，Lock有多种锁的获取方式 condition</td></tr><tr><td>锁状态</td><td>无法判断</td><td>可以判断</td></tr><tr><td>锁类型</td><td>可重入，不可判断，非公平</td><td>可重入，可判断，可公平</td></tr><tr><td>性能</td><td>少量同步</td><td>大量同步</td></tr></tbody></table>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="Java" term="Java"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SpringBoot自动配置实现原理]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/18/autoconfig-1</id>

@@ -4,10 +4,20 @@
         <title>ahKevinXy Blog</title>
         <link>https://ahkevinxy.github.io/blog</link>
         <description>ahKevinXy Blog</description>
-        <lastBuildDate>Tue, 18 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[synchronized & ReentrantLock 区别]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/07/19/lock-1</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/07/19/lock-1</guid>
+            <pubDate>Wed, 19 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[锁的区别]]></description>
+            <content:encoded><![CDATA[<table><thead><tr><th>类别</th><th>synchronized</th><th>ReentrantLock</th></tr></thead><tbody><tr><td>存在层次</td><td>Java的关键字，JVM层面</td><td>是一个类</td></tr><tr><td>锁的释放</td><td>1.以获取锁的线程执行同步代码，释放锁 2.线程执行发生一次，JVM会让线程释放锁</td><td>在finally中必须释放锁，不然容易造成线程死锁</td></tr><tr><td>锁的获取</td><td>加锁A线程获得锁，B线程等待，如果A阻塞，B线程会一直等待</td><td>分情况而定，Lock有多种锁的获取方式 condition</td></tr><tr><td>锁状态</td><td>无法判断</td><td>可以判断</td></tr><tr><td>锁类型</td><td>可重入，不可判断，非公平</td><td>可重入，可判断，可公平</td></tr><tr><td>性能</td><td>少量同步</td><td>大量同步</td></tr></tbody></table>]]></content:encoded>
+            <author>137472591@qq.com (flankx)</author>
+            <category>Java</category>
+        </item>
         <item>
             <title><![CDATA[SpringBoot自动配置实现原理]]></title>
             <link>https://ahkevinxy.github.io/blog/2023/07/18/autoconfig-1</link>
