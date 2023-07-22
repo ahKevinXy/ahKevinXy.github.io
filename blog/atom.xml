@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-21T00:00:00.000Z</updated>
+    <updated>2023-07-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Redis 淘汰机制]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/22/redis-2</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/22/redis-2"/>
+        <updated>2023-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redis 淘汰机制]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="redis提供6种数据淘汰策略"><code>Redis</code>提供6种数据淘汰策略<a href="#redis提供6种数据淘汰策略" class="hash-link" aria-label="redis提供6种数据淘汰策略的直接链接" title="redis提供6种数据淘汰策略的直接链接">​</a></h3><ol><li><code>volatile-lru</code>（least recently used）：从已设置过期时间的数据集（server.db<!-- -->[i]<!-- -->.expires）中挑选最近最少使用的数据淘汰</li><li><code>volatile-ttl</code>：从已设置过期时间的数据集（server.db<!-- -->[i]<!-- -->.expires）中挑选将要过期的数据淘汰</li><li><code>volatile-random</code>：从已设置过期时间的数据集（server.db<!-- -->[i]<!-- -->.expires）中任意选择数据淘汰</li><li><code>allkeys-lru</code>（least recently used）：当内存不足以容纳新写入数据时，在键空间中，移除最近最少使用的 key（这个是最常用的）</li><li><code>allkeys-random</code>：从数据集（server.db<!-- -->[i]<!-- -->.dict）中任意选择数据淘汰</li><li><code>no-eviction</code>：禁止驱逐数据，也就是说当内存不足以容纳新写入数据时，新写入操作会报错。这个应该没人使用吧！
+4.0 版本后增加以下两种：</li><li><code>volatile-lfu</code>（least frequently used）：从已设置过期时间的数据集（server.db<!-- -->[i]<!-- -->.expires）中挑选最不经常使用的数据淘汰</li><li><code>allkeys-lfu</code>（least frequently used）：当内存不足以容纳新写入数据时，在键空间中，移除最不经常使用的 key</li></ol><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="redis持久化机制">Redis持久化机制<a href="#redis持久化机制" class="hash-link" aria-label="Redis持久化机制的直接链接" title="Redis持久化机制的直接链接">​</a></h3><ol><li>RDB快照</li><li>AOF只追加文件</li></ol>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="Redis" term="Redis"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Redis缓存异常处理]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/21/redis-1</id>
