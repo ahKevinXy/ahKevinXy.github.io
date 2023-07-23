@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-22T00:00:00.000Z</updated>
+    <updated>2023-07-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Redis数据结构]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/23/redis-3</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/23/redis-3"/>
+        <updated>2023-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redis数据结构]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="5种基础数据结构">5种基础数据结构<a href="#5种基础数据结构" class="hash-link" aria-label="5种基础数据结构的直接链接" title="5种基础数据结构的直接链接">​</a></h3><ul><li>String字符串</li><li>List列表</li><li>Set集合</li><li>Hash散列</li><li>Zset有序集合</li></ul><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3种特殊数据结构">3种特殊数据结构<a href="#3种特殊数据结构" class="hash-link" aria-label="3种特殊数据结构的直接链接" title="3种特殊数据结构的直接链接">​</a></h3><ul><li>HyperLogLogs基数统计</li><li>Bitmap位存储</li><li>Geospatial地理位置</li></ul>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="Redis" term="Redis"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Redis 淘汰机制]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/22/redis-2</id>

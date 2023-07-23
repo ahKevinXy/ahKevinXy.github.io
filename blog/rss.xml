@@ -4,10 +4,20 @@
         <title>ahKevinXy Blog</title>
         <link>https://ahkevinxy.github.io/blog</link>
         <description>ahKevinXy Blog</description>
-        <lastBuildDate>Sat, 22 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[Redis数据结构]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/07/23/redis-3</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/07/23/redis-3</guid>
+            <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Redis数据结构]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="5种基础数据结构">5种基础数据结构<a href="#5种基础数据结构" class="hash-link" aria-label="5种基础数据结构的直接链接" title="5种基础数据结构的直接链接">​</a></h3><ul><li>String字符串</li><li>List列表</li><li>Set集合</li><li>Hash散列</li><li>Zset有序集合</li></ul><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3种特殊数据结构">3种特殊数据结构<a href="#3种特殊数据结构" class="hash-link" aria-label="3种特殊数据结构的直接链接" title="3种特殊数据结构的直接链接">​</a></h3><ul><li>HyperLogLogs基数统计</li><li>Bitmap位存储</li><li>Geospatial地理位置</li></ul>]]></content:encoded>
+            <author>137472591@qq.com (flankx)</author>
+            <category>Redis</category>
+        </item>
         <item>
             <title><![CDATA[Redis 淘汰机制]]></title>
             <link>https://ahkevinxy.github.io/blog/2023/07/22/redis-2</link>
