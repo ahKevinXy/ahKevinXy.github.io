@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-23T00:00:00.000Z</updated>
+    <updated>2023-07-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[如何保证 redis 缓存一致性？]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/24/redis-4</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/24/redis-4"/>
+        <updated>2023-07-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redis一致性]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="方案一">方案一<a href="#方案一" class="hash-link" aria-label="方案一的直接链接" title="方案一的直接链接">​</a></h2><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="采用延时双删策略">采用延时双删策略<a href="#采用延时双删策略" class="hash-link" aria-label="采用延时双删策略的直接链接" title="采用延时双删策略的直接链接">​</a></h3><ul><li>基本思路： 在写库前后都进行删除缓存操作，并且设置合理的超时时间</li><li>基本步骤： 先删除缓存–再写数据库—休眠一段时间—再次删除缓存
+注：休眠的时间是根据自己的项目的读数据业务逻辑的耗时来确定的。这样做主要是为了保证在写请求之前确保读请求结束，写请求可以删除读请求造成的缓存脏数据。</li><li>该方案的弊端： 集合双删策略+缓存超时策略设置，这样最差的结果就是在超时时间内数据存在不一致，又增加了写请求的耗时。</li></ul><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="方案二">方案二<a href="#方案二" class="hash-link" aria-label="方案二的直接链接" title="方案二的直接链接">​</a></h2><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="一步更新缓存基于订阅binlog的同步机制">一步更新缓存（基于订阅Binlog的同步机制）<a href="#一步更新缓存基于订阅binlog的同步机制" class="hash-link" aria-label="一步更新缓存（基于订阅Binlog的同步机制）的直接链接" title="一步更新缓存（基于订阅Binlog的同步机制）的直接链接">​</a></h3><ul><li>基本思路： <code>MySQL Binlog</code>增强订阅消费 + 消息队列 + 增量数据更新到<code>Redis</code>。</li></ul>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="Redis" term="Redis"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Redis数据结构]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/23/redis-3</id>
