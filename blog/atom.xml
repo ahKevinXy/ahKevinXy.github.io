@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-24T00:00:00.000Z</updated>
+    <updated>2023-07-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hash 冲突解决方法]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/27/hash-1</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/27/hash-1"/>
+        <updated>2023-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hash 冲突]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="hash-冲突解决方法"><code>Hash</code> 冲突解决方法<a href="#hash-冲突解决方法" class="hash-link" aria-label="hash-冲突解决方法的直接链接" title="hash-冲突解决方法的直接链接">​</a></h3><ol><li><p>开放定址法
+这种方法也称再散列法，其基本思想是：当关键字key的哈希地址p=H（key）出现冲突时，以p为基础，产生另一个哈希地址p1，如果p1仍然冲突，再以p为基础，产生另一个哈希地址p2，…，直到找出一个不冲突的哈希地址pi&nbsp;，将相应元素存入其中。这种方法有一个通用的再散列函数形式：
+Hi=（H（key）+di）% m&nbsp;&nbsp; i=1，2，…，n</p></li><li><p>再哈希法
+这种方法是同时构造多个不同的哈希函数：
+Hi=RH1（key）&nbsp; i=1，2，…，k
+当哈希地址Hi=RH1（key）发生冲突时，再计算Hi=RH2（key）……，直到冲突不再产生。这种方法不易产生聚集，但增加了计算时间</p></li><li><p>链地址法
+这种方法的基本思想是将所有哈希地址为i的元素构成一个称为同义词链的单链表，并将单链表的头指针存在哈希表的第i个单元中，因而查找、插入和删除主要在同义词链中进行。链地址法适用于经常进行插入和删除的情况</p></li><li><p>建立公共溢出区
+这种方法的基本思想是：将哈希表分为基本表和溢出表两部分，凡是和基本表发生冲突的元素，一律填入溢出表</p></li></ol>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="Hash" term="Hash"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transactional 什么情况下会失效？]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/07/25/spring-0725</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/07/25/spring-0725"/>
+        <updated>2023-07-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spring事物]]></summary>
+        <content type="html"><![CDATA[<ul><li><code>@Transactional</code>&nbsp;注解只有作用到 public 方法上事务才生效，不推荐在接口上使用；</li><li>避免同一个类中调用&nbsp;<code>@Transactional</code>&nbsp;注解的方法，这样会导致事务失效；</li><li>正确的设置&nbsp;<code>@Transactional</code>&nbsp;的&nbsp;<code>rollbackFor</code>&nbsp;和&nbsp;<code>propagation</code>&nbsp;属性，否则事务可能会回滚失败;</li><li>被&nbsp;<code>@Transactional</code>&nbsp;注解的方法所在的类必须被 <code>Spring</code> 管理，否则不生效；</li><li>底层使用的数据库必须支持事务机制，否则不生效；</li></ul>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="Spring" term="Spring"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何保证 redis 缓存一致性？]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/24/redis-4</id>
