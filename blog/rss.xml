@@ -4,10 +4,20 @@
         <title>ahKevinXy Blog</title>
         <link>https://ahkevinxy.github.io/blog</link>
         <description>ahKevinXy Blog</description>
-        <lastBuildDate>Thu, 27 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[JVM常用命令]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/08/01/jvm-0801</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/08/01/jvm-0801</guid>
+            <pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[JVM常用命令]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="jvm常用命令">JVM常用命令<a href="#jvm常用命令" class="hash-link" aria-label="JVM常用命令的直接链接" title="JVM常用命令的直接链接">​</a></h3><ul><li>lsof -i:8902 ###查看端口8902对应应用的pid</li><li>jstat -class PID ###类加载统计</li><li>jstat -compiler PID ###编译统计</li><li>jstat -gc PID ###垃圾回收统计</li><li>jstat -gccapacity PID ### 堆内存统计</li><li>jstat -gcutil PID ###查看堆比例</li><li>jstat -gccause PID ###GC的原因</li><li>jstat -gcnew PID ###新生代垃圾回收统计</li><li>jstat -gcnewcapacity PID ###新生代内存统计</li><li>jstat -gcold PID ###老年代垃圾回收统计</li><li>jstat -gcoldcapcacity PID ###老年代内存统计</li><li>jstat -gcmetacapacity PID ###元数据空间统计</li><li>jstat -printcompilation PID ###JVM编译方法统计</li><li>jmap -histo PID ###查看类的实例</li><li>jmap -heap PID ###查看堆栈信息</li><li>jmap -dump:live,format=b,file=/tmp/m.hprof PID ###保存内存的堆栈为文件</li><li>jhat -J-Xmx2048m -port 5000 /tmp/m.hprof ###在线查看堆文件的类，速度比较慢</li><li>jcmd PID GC.run ###强制gc</li></ul>]]></content:encoded>
+            <author>137472591@qq.com (flankx)</author>
+            <category>JVM</category>
+        </item>
         <item>
             <title><![CDATA[Hash 冲突解决方法]]></title>
             <link>https://ahkevinxy.github.io/blog/2023/07/27/hash-1</link>

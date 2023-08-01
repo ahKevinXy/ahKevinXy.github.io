@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-07-27T00:00:00.000Z</updated>
+    <updated>2023-08-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JVM常用命令]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/08/01/jvm-0801</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/08/01/jvm-0801"/>
+        <updated>2023-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JVM常用命令]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="jvm常用命令">JVM常用命令<a href="#jvm常用命令" class="hash-link" aria-label="JVM常用命令的直接链接" title="JVM常用命令的直接链接">​</a></h3><ul><li>lsof -i:8902 ###查看端口8902对应应用的pid</li><li>jstat -class PID ###类加载统计</li><li>jstat -compiler PID ###编译统计</li><li>jstat -gc PID ###垃圾回收统计</li><li>jstat -gccapacity PID ### 堆内存统计</li><li>jstat -gcutil PID ###查看堆比例</li><li>jstat -gccause PID ###GC的原因</li><li>jstat -gcnew PID ###新生代垃圾回收统计</li><li>jstat -gcnewcapacity PID ###新生代内存统计</li><li>jstat -gcold PID ###老年代垃圾回收统计</li><li>jstat -gcoldcapcacity PID ###老年代内存统计</li><li>jstat -gcmetacapacity PID ###元数据空间统计</li><li>jstat -printcompilation PID ###JVM编译方法统计</li><li>jmap -histo PID ###查看类的实例</li><li>jmap -heap PID ###查看堆栈信息</li><li>jmap -dump:live,format=b,file=/tmp/m.hprof PID ###保存内存的堆栈为文件</li><li>jhat -J-Xmx2048m -port 5000 /tmp/m.hprof ###在线查看堆文件的类，速度比较慢</li><li>jcmd PID GC.run ###强制gc</li></ul>]]></content>
+        <author>
+            <name>flankx</name>
+            <email>137472591@qq.com</email>
+            <uri>https://github.com/flankx</uri>
+        </author>
+        <category label="JVM" term="JVM"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hash 冲突解决方法]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/07/27/hash-1</id>
