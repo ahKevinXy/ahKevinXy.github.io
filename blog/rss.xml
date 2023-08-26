@@ -4,10 +4,20 @@
         <title>ahKevinXy Blog</title>
         <link>https://ahkevinxy.github.io/blog</link>
         <description>ahKevinXy Blog</description>
-        <lastBuildDate>Fri, 18 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[React hook 详解]]></title>
+            <link>https://ahkevinxy.github.io/blog/2023/08/26/react-hook</link>
+            <guid>https://ahkevinxy.github.io/blog/2023/08/26/react-hook</guid>
+            <pubDate>Sat, 26 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[React hook 如何巧妙使用]]></description>
+            <content:encoded><![CDATA[<p>Hook 是react <code>16.8</code> 的新增特性，它可以在不编写class 的情况下使用state 以及其它react 特性</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="hook-优势">hook 优势<a href="#hook-优势" class="hash-link" aria-label="hook 优势的直接链接" title="hook 优势的直接链接">​</a></h2><ul><li>hook 在无需改变组件结构的情况下复用状态逻辑</li><li>hook 将组件中相互关联的部分拆分成更小的函数</li><li>hook 在非class 的情况下可以使用更多的react 特性 </li></ul><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="使用规则">使用规则<a href="#使用规则" class="hash-link" aria-label="使用规则的直接链接" title="使用规则的直接链接">​</a></h2><p>Hook 就是<code>javascript</code> </p><ol><li>只能在函数外层调用 hook,不要在循环，条件判断或子函数中调用</li><li>只能在react的函数组件和自定义hook中调用hook</li></ol><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="usestate">useState<a href="#usestate" class="hash-link" aria-label="useState的直接链接" title="useState的直接链接">​</a></h2><p><code>useState</code> 用于在函数组件中调用给组件添加一些内部状态<code>state</code></p><div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">state</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">setState</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">useState</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">initialState</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+            <category>react</category>
+        </item>
         <item>
             <title><![CDATA[html css 基础]]></title>
             <link>https://ahkevinxy.github.io/blog/2023/08/18/website</link>
