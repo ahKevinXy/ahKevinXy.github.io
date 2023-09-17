@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[2568],{66554:function(a){a.exports=JSON.parse('{"label":"saas","permalink":"/blog/tags/saas","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[49565],{15164:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/redis","page":1,"postsPerPage":5,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
