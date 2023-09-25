@@ -4,10 +4,29 @@
         <title>ahKevinXy Blog</title>
         <link>https://study.opencodes.top/blog</link>
         <description>ahKevinXy Blog</description>
-        <lastBuildDate>Sun, 17 Sep 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Sep 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[gem  设置 中国源]]></title>
+            <link>https://study.opencodes.top/blog/2023/09/25/gem</link>
+            <guid>https://study.opencodes.top/blog/2023/09/25/gem</guid>
+            <pubDate>Mon, 25 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[gem 设置中国源 gem 设置 清华大学镜像源]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="gem">gem<a href="#gem" class="hash-link" aria-label="gem的直接链接" title="gem的直接链接">​</a></h2><p>使用以下命令替换 gems 默认源</p><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># 添加镜像源并移除默认源</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    gem sources --add https://mirrors.tuna.tsinghua.edu.cn/rubygems/ --remove https://rubygems.org/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 列出已有源</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">gem sources -l</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 应该只有镜像源一个</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>或者，编辑 <code>~/.gemrc</code>，将</p><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">https://mirrors.tuna.tsinghua.edu.cn/rubygems/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>加到 <code>sources</code> 字段。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="bundler">bundler<a href="#bundler" class="hash-link" aria-label="bundler的直接链接" title="bundler的直接链接">​</a></h2><p>使用以下命令替换 bundler 默认源</p><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">bundle config mirror.https://rubygems.org https://mirrors.tuna.tsinghua.edu.cn/rubygems</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+            <category>gem</category>
+        </item>
+        <item>
+            <title><![CDATA[pods]]></title>
+            <link>https://study.opencodes.top/blog/2023/09/25/pods</link>
+            <guid>https://study.opencodes.top/blog/2023/09/25/pods</guid>
+            <pubDate>Mon, 25 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[iOS 开发之 Pods 入门,如何使用pods]]></description>
+            <author>ahkevinxy@gmail.com (ahKevinXy)</author>
+            <category>iOS</category>
+        </item>
         <item>
             <title><![CDATA[Go  设计模式]]></title>
             <link>https://study.opencodes.top/blog/2023/09/17/design</link>
