@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[77244],{48180:function(a){a.exports=JSON.parse('{"label":"Goland","permalink":"/blog/tags/goland","allTagsPath":"/blog/tags","count":1}')}}]);
