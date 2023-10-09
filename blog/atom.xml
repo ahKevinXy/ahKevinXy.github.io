@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahkevinxy.github.io/blog</id>
     <title>ahKevinXy Blog</title>
-    <updated>2023-10-07T00:00:00.000Z</updated>
+    <updated>2023-10-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahkevinxy.github.io/blog"/>
     <subtitle>ahKevinXy Blog</subtitle>
     <icon>https://ahkevinxy.github.io/static/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[一天学会iOS开发]]></title>
+        <id>https://ahkevinxy.github.io/blog/2023/10/09/onedayios</id>
+        <link href="https://ahkevinxy.github.io/blog/2023/10/09/onedayios"/>
+        <updated>2023-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[快速学习iOS 入门 如何高效学习入门iOS开发语言]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="objective-c">objective-c<a href="#objective-c" class="hash-link" aria-label="objective-c的直接链接" title="objective-c的直接链接">​</a></h2><p>Objective-C 是一种简单的计算机语言，设计为可以支持真正的面向对象编程。
+Objective-C 通过提供类定义，方法以及属性的语法，还有其他可以提高类的动态扩展能力的结构等，扩展了标准的 ANSI C 语言</p><p>Objective-C 扩展名说明</p><table><thead><tr><th>扩展名</th><th>内容类型</th></tr></thead><tbody><tr><td>.h</td><td>头文件.头文件包含类,类型,函数和常数的说明</td></tr><tr><td>.m</td><td>源代码文件,这是典型的源代码扩展名,可以包含Objective-C和C代码</td></tr><tr><td>.mm</td><td>源代码文件,带有这种扩展名的源代码文件,除了包含Objective-C 和C代码文件以外还可以包含C++代码</td></tr></tbody></table>]]></content>
+        <author>
+            <name>ahKevinXy</name>
+            <email>ahkevinxy@gmail.com</email>
+            <uri>https://github.com/ahKevinXy</uri>
+        </author>
+        <category label="iOS" term="iOS"/>
+        <category label="oneday" term="oneday"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一天学会Java 语言]]></title>
         <id>https://ahkevinxy.github.io/blog/2023/10/07/onedayjava</id>
@@ -20,6 +36,7 @@
             <uri>https://github.com/ahKevinXy</uri>
         </author>
         <category label="java" term="java"/>
+        <category label="oneday" term="oneday"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[goland 使用技巧]]></title>
