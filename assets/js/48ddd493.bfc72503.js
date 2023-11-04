@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[13201],{63055:a=>{a.exports=JSON.parse('{"label":"oneday","permalink":"/blog/tags/oneday","allTagsPath":"/blog/tags","count":2}')}}]);
