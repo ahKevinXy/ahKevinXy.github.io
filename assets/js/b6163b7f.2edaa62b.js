@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[39576],{53565:a=>{a.exports=JSON.parse('{"label":"\u5f00\u6e90","permalink":"/blog/tags/\u5f00\u6e90","allTagsPath":"/blog/tags","count":1}')}}]);
