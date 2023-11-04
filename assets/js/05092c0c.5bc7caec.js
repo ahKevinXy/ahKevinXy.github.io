@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[29490],{92273:a=>{a.exports=JSON.parse('{"label":"antd","permalink":"/blog/tags/antd","allTagsPath":"/blog/tags","count":1}')}}]);
