@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[84266],{82161:(e,n,s)=>{s.r(n),s.d(n,{default:()=>c});s(67294);var h=s(25315),a=s(85893);const c=()=>(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(h.Z,{children:(0,a.jsx)("div",{children:" \u804a\u5929\u5ba4"})})})}}]);
