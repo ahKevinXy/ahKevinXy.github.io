@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[51644],{12430:(e,s,a)=>{a.r(s),a.d(s,{default:()=>n});var k=a(25315),h=(a(67294),a(85893));const n=()=>(0,h.jsx)(k.Z,{})}}]);
