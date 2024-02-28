@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[98264],{8601:a=>{a.exports=JSON.parse('{"label":"iOS","permalink":"/blog/tags/i-os","allTagsPath":"/blog/tags","count":3,"unlisted":false}')}}]);
