@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([[53947],{65611:e=>{e.exports=JSON.parse('{"label":"Redis","permalink":"/blog/tags/redis","allTagsPath":"/blog/tags","count":4,"unlisted":false}')}}]);
