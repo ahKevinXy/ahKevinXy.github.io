@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkah_kevin_xy=self.webpackChunkah_kevin_xy||[]).push([["84048"],{22650(e,h,a){a.r(h),a.d(h,{default:()=>s});var n=a(74848);a(96540);var r=a(7922);let s=()=>(new r.lgM,(0,n.jsx)(n.Fragment,{children:(0,n.jsx)("div",{style:{width:"100hv",height:"100hv",background:"red"}})}))}}]);
