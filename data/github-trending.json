@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-12T17:12:01.212Z",
+  "updatedAt": "2026-08-12T18:07:43.373Z",
   "updatedDate": "2026-08-13",
-  "updatedTime": "01:12:01",
-  "updatedHis": "011201",
+  "updatedTime": "02:07:43",
+  "updatedHis": "020743",
   "timeZone": "Asia/Shanghai",
   "date": "2026-08-13",
   "since": "daily",
@@ -17,6 +17,45 @@
       "repositories": [
         {
           "rank": 1,
+          "name": "diagram-design",
+          "repo": "cathrynlavery/diagram-design",
+          "owner": "cathrynlavery",
+          "desc": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+          "href": "https://github.com/cathrynlavery/diagram-design",
+          "language": "HTML",
+          "languageColor": "#e34c26",
+          "stars": 9452,
+          "forks": 610,
+          "starsToday": 2951,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
+              "username": "cathrynlavery"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+              "username": "mvanhorn"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/19864447?s=40&v=4",
+              "username": "web-flow"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
+              "username": "parveen0029"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/57676953?s=40&v=4",
+              "username": "daanmlab"
+            }
+          ],
+          "tags": [
+            "html",
+            "ai"
+          ]
+        },
+        {
+          "rank": 2,
           "name": "macro",
           "repo": "macro-inc/macro",
           "owner": "macro-inc",
@@ -24,8 +63,8 @@
           "href": "https://github.com/macro-inc/macro",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 1463,
-          "forks": 197,
+          "stars": 1514,
+          "forks": 202,
           "starsToday": 325,
           "contributors": [
             {
@@ -61,7 +100,7 @@
           ]
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "semantica",
           "repo": "semantica-agi/semantica",
           "owner": "semantica-agi",
@@ -69,7 +108,7 @@
           "href": "https://github.com/semantica-agi/semantica",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 5550,
+          "stars": 5569,
           "forks": 612,
           "starsToday": 834,
           "contributors": [
@@ -106,7 +145,7 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "orca",
           "repo": "stablyai/orca",
           "owner": "stablyai",
@@ -114,8 +153,8 @@
           "href": "https://github.com/stablyai/orca",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 43634,
-          "forks": 3042,
+          "stars": 43670,
+          "forks": 3043,
           "starsToday": 1215,
           "contributors": [
             {
@@ -151,7 +190,7 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "agency-agents",
           "repo": "msitarzewski/agency-agents",
           "owner": "msitarzewski",
@@ -159,7 +198,7 @@
           "href": "https://github.com/msitarzewski/agency-agents",
           "language": "Shell",
           "languageColor": "#89e051",
-          "stars": 144403,
+          "stars": 144431,
           "forks": 23405,
           "starsToday": 1969,
           "contributors": [
@@ -191,7 +230,7 @@
           ]
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Kronos",
           "repo": "shiyu-coder/Kronos",
           "owner": "shiyu-coder",
@@ -199,8 +238,8 @@
           "href": "https://github.com/shiyu-coder/Kronos",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 36891,
-          "forks": 6144,
+          "stars": 36897,
+          "forks": 6145,
           "starsToday": 277,
           "contributors": [
             {
@@ -230,7 +269,7 @@
           ]
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "MediaCrawler",
           "repo": "NanmiCoder/MediaCrawler",
           "owner": "NanmiCoder",
@@ -238,8 +277,8 @@
           "href": "https://github.com/NanmiCoder/MediaCrawler",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 61921,
-          "forks": 12117,
+          "stars": 61929,
+          "forks": 12120,
           "starsToday": 236,
           "contributors": [
             {
@@ -268,7 +307,7 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ppt-master",
           "repo": "hugohe3/ppt-master",
           "owner": "hugohe3",
@@ -276,8 +315,8 @@
           "href": "https://github.com/hugohe3/ppt-master",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 45415,
-          "forks": 3706,
+          "stars": 45437,
+          "forks": 3707,
           "starsToday": 364,
           "contributors": [
             {
@@ -313,7 +352,7 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ragflow",
           "repo": "infiniflow/ragflow",
           "owner": "infiniflow",
@@ -321,8 +360,8 @@
           "href": "https://github.com/infiniflow/ragflow",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 87456,
-          "forks": 10304,
+          "stars": 87471,
+          "forks": 10305,
           "starsToday": 182,
           "contributors": [
             {
@@ -358,7 +397,7 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "paperclip",
           "repo": "paperclipai/paperclip",
           "owner": "paperclipai",
@@ -366,8 +405,8 @@
           "href": "https://github.com/paperclipai/paperclip",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 77587,
-          "forks": 14291,
+          "stars": 77605,
+          "forks": 14292,
           "starsToday": 573,
           "contributors": [
             {
@@ -398,7 +437,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Switchyard",
           "repo": "NVIDIA-NeMo/Switchyard",
           "owner": "NVIDIA-NeMo",
@@ -406,8 +445,8 @@
           "href": "https://github.com/NVIDIA-NeMo/Switchyard",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 704,
-          "forks": 76,
+          "stars": 724,
+          "forks": 77,
           "starsToday": 370,
           "contributors": [
             {
@@ -436,7 +475,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "everyone-can-use-english",
           "repo": "ZuodaoTech/everyone-can-use-english",
           "owner": "ZuodaoTech",
@@ -444,7 +483,7 @@
           "href": "https://github.com/ZuodaoTech/everyone-can-use-english",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 36014,
+          "stars": 36025,
           "forks": 5025,
           "starsToday": 53,
           "contributors": [
@@ -474,7 +513,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "spiderfoot",
           "repo": "smicallef/spiderfoot",
           "owner": "smicallef",
@@ -482,7 +521,7 @@
           "href": "https://github.com/smicallef/spiderfoot",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 20272,
+          "stars": 20281,
           "forks": 3288,
           "starsToday": 40,
           "contributors": [
@@ -519,7 +558,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "localsend",
           "repo": "localsend/localsend",
           "owner": "localsend",
@@ -527,8 +566,8 @@
           "href": "https://github.com/localsend/localsend",
           "language": "Dart",
           "languageColor": "#00B4AB",
-          "stars": 87642,
-          "forks": 4862,
+          "stars": 87668,
+          "forks": 4864,
           "starsToday": 284,
           "contributors": [
             {
@@ -560,7 +599,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "LTX-2",
           "repo": "Lightricks/LTX-2",
           "owner": "Lightricks",
@@ -568,7 +607,7 @@
           "href": "https://github.com/Lightricks/LTX-2",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 8646,
+          "stars": 8651,
           "forks": 1392,
           "starsToday": 40,
           "contributors": [
@@ -592,7 +631,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "embabel-agent",
           "repo": "embabel/embabel-agent",
           "owner": "embabel",
@@ -600,8 +639,8 @@
           "href": "https://github.com/embabel/embabel-agent",
           "language": "Kotlin",
           "languageColor": "#A97BFF",
-          "stars": 4190,
-          "forks": 410,
+          "stars": 4194,
+          "forks": 411,
           "starsToday": 29,
           "contributors": [
             {
@@ -637,7 +676,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "needle",
           "repo": "cactus-compute/needle",
           "owner": "cactus-compute",
@@ -645,8 +684,8 @@
           "href": "https://github.com/cactus-compute/needle",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 4046,
-          "forks": 298,
+          "stars": 4064,
+          "forks": 300,
           "starsToday": 346,
           "contributors": [
             {
@@ -695,7 +734,7 @@
           "href": "https://github.com/cloudflare/computer",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 7751,
+          "stars": 7754,
           "forks": 423,
           "starsToday": 6775,
           "contributors": [
@@ -734,7 +773,7 @@
           "href": "https://github.com/semantica-agi/semantica",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 5550,
+          "stars": 5569,
           "forks": 612,
           "starsToday": 2712,
           "contributors": [
@@ -779,8 +818,8 @@
           "href": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 20452,
-          "forks": 1847,
+          "stars": 20462,
+          "forks": 1850,
           "starsToday": 7017,
           "contributors": [
             {
@@ -812,8 +851,8 @@
           "href": "https://github.com/huangruiteng/loopx",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 4356,
-          "forks": 368,
+          "stars": 4364,
+          "forks": 369,
           "starsToday": 2687,
           "contributors": [
             {
@@ -857,7 +896,7 @@
           "href": "https://github.com/firecrawl/pdf-inspector",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 14968,
+          "stars": 14978,
           "forks": 1033,
           "starsToday": 5367,
           "contributors": [
@@ -902,7 +941,7 @@
           "href": "https://github.com/google/skills",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 17873,
+          "stars": 17877,
           "forks": 1421,
           "starsToday": 2216,
           "contributors": [
@@ -942,7 +981,7 @@
           "href": "https://github.com/vitali87/code-graph-rag",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 4051,
+          "stars": 4060,
           "forks": 574,
           "starsToday": 1189,
           "contributors": [
@@ -987,8 +1026,8 @@
           "href": "https://github.com/zhaoxuya520/reverse-skill",
           "language": "PowerShell",
           "languageColor": "#012456",
-          "stars": 24386,
-          "forks": 3311,
+          "stars": 24399,
+          "forks": 3313,
           "starsToday": 6730,
           "contributors": [
             {
@@ -1028,8 +1067,8 @@
           "href": "https://github.com/esengine/DeepSeek-Reasonix",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 34160,
-          "forks": 2243,
+          "stars": 34169,
+          "forks": 2244,
           "starsToday": 3517,
           "contributors": [
             {
@@ -1073,8 +1112,8 @@
           "href": "https://github.com/drawdb-io/drawdb",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 38920,
-          "forks": 3173,
+          "stars": 38924,
+          "forks": 3174,
           "starsToday": 597,
           "contributors": [
             {
@@ -1118,8 +1157,8 @@
           "href": "https://github.com/virgiliojr94/book-to-skill",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 20790,
-          "forks": 2195,
+          "stars": 20797,
+          "forks": 2197,
           "starsToday": 4155,
           "contributors": [
             {
@@ -1157,8 +1196,8 @@
           "href": "https://github.com/Comfy-Org/ComfyUI",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 127047,
-          "forks": 14967,
+          "stars": 127057,
+          "forks": 14966,
           "starsToday": 3252,
           "contributors": [
             {
@@ -1200,7 +1239,7 @@
           "href": "https://github.com/LadybirdBrowser/ladybird",
           "language": "C++",
           "languageColor": "#f34b7d",
-          "stars": 65464,
+          "stars": 65465,
           "forks": 3129,
           "starsToday": 679,
           "contributors": [
@@ -1239,8 +1278,8 @@
           "href": "https://github.com/addyosmani/agent-skills",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 86519,
-          "forks": 9292,
+          "stars": 86525,
+          "forks": 9295,
           "starsToday": 4671,
           "contributors": [
             {
@@ -1282,7 +1321,7 @@
           "href": "https://github.com/goauthentik/authentik",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 24691,
+          "stars": 24694,
           "forks": 1891,
           "starsToday": 2003,
           "contributors": [
@@ -1335,8 +1374,8 @@
           "href": "https://github.com/diegosouzapw/OmniRoute",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 46422,
-          "forks": 6260,
+          "stars": 46458,
+          "forks": 6266,
           "starsToday": 30582,
           "contributors": [
             {
@@ -1380,8 +1419,8 @@
           "href": "https://github.com/koala73/worldmonitor",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 81183,
-          "forks": 12137,
+          "stars": 81193,
+          "forks": 12138,
           "starsToday": 19348,
           "contributors": [
             {
@@ -1425,7 +1464,7 @@
           "href": "https://github.com/Nutlope/hallmark",
           "language": "CSS",
           "languageColor": "#663399",
-          "stars": 24329,
+          "stars": 24334,
           "forks": 1226,
           "starsToday": 20034,
           "contributors": [
@@ -1464,8 +1503,8 @@
           "href": "https://github.com/1jehuang/jcode",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 17315,
-          "forks": 1942,
+          "stars": 17322,
+          "forks": 1944,
           "starsToday": 8917,
           "contributors": [
             {
@@ -1509,8 +1548,8 @@
           "href": "https://github.com/zhaoxuya520/reverse-skill",
           "language": "PowerShell",
           "languageColor": "#012456",
-          "stars": 24386,
-          "forks": 3311,
+          "stars": 24399,
+          "forks": 3313,
           "starsToday": 15942,
           "contributors": [
             {
@@ -1550,8 +1589,8 @@
           "href": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 20452,
-          "forks": 1847,
+          "stars": 20462,
+          "forks": 1850,
           "starsToday": 11445,
           "contributors": [
             {
@@ -1583,8 +1622,8 @@
           "href": "https://github.com/HKUDS/DeepTutor",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 35142,
-          "forks": 4456,
+          "stars": 35148,
+          "forks": 4457,
           "starsToday": 9113,
           "contributors": [
             {
@@ -1592,12 +1631,12 @@
               "username": "pancacake"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/272976591?s=40&v=4",
-              "username": "Pinkllow"
-            },
-            {
               "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
               "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/272976591?s=40&v=4",
+              "username": "Pinkllow"
             },
             {
               "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
@@ -1628,8 +1667,8 @@
           "href": "https://github.com/pingdotgg/t3code",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 18380,
-          "forks": 4190,
+          "stars": 18385,
+          "forks": 4193,
           "starsToday": 4753,
           "contributors": [
             {
@@ -1666,8 +1705,8 @@
           "href": "https://github.com/stablyai/orca",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 43634,
-          "forks": 3042,
+          "stars": 43670,
+          "forks": 3043,
           "starsToday": 26440,
           "contributors": [
             {
@@ -1711,8 +1750,8 @@
           "href": "https://github.com/mattpocock/skills",
           "language": "Shell",
           "languageColor": "#89e051",
-          "stars": 214860,
-          "forks": 18538,
+          "stars": 214894,
+          "forks": 18544,
           "starsToday": 49161,
           "contributors": [
             {
@@ -1746,7 +1785,7 @@
           "href": "https://github.com/every-app/open-seo",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 11441,
+          "stars": 11444,
           "forks": 1319,
           "starsToday": 7123,
           "contributors": [
@@ -1790,8 +1829,8 @@
           "href": "https://github.com/earendil-works/pi",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 88467,
-          "forks": 10990,
+          "stars": 88484,
+          "forks": 10995,
           "starsToday": 18096,
           "contributors": [
             {
@@ -1830,8 +1869,8 @@
           "href": "https://github.com/virgiliojr94/book-to-skill",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 20790,
-          "forks": 2195,
+          "stars": 20797,
+          "forks": 2197,
           "starsToday": 11976,
           "contributors": [
             {
@@ -1869,7 +1908,7 @@
           "href": "https://github.com/tirth8205/code-review-graph",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 29900,
+          "stars": 29903,
           "forks": 2746,
           "starsToday": 10514,
           "contributors": [
@@ -1914,7 +1953,7 @@
           "href": "https://github.com/kangarooking/cangjie-skill",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 7433,
+          "stars": 7434,
           "forks": 918,
           "starsToday": 4833,
           "contributors": [
@@ -1959,7 +1998,7 @@
           "href": "https://github.com/agegr/pi-web",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 4084,
+          "stars": 4085,
           "forks": 570,
           "starsToday": 2913,
           "contributors": [
@@ -1999,7 +2038,7 @@
           "href": "https://github.com/tt-a1i/archify",
           "language": "HTML",
           "languageColor": "#e34c26",
-          "stars": 11652,
+          "stars": 11658,
           "forks": 889,
           "starsToday": 7913,
           "contributors": [
@@ -2044,7 +2083,7 @@
           "href": "https://github.com/MoonshotAI/kimi-code",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 6441,
+          "stars": 6445,
           "forks": 1024,
           "starsToday": 3345,
           "contributors": [
@@ -2085,7 +2124,7 @@
           "href": "https://github.com/different-ai/openwork",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 21924,
+          "stars": 21928,
           "forks": 2164,
           "starsToday": 5293,
           "contributors": [
@@ -2124,7 +2163,7 @@
           "href": "https://github.com/iOfficeAI/OfficeCLI",
           "language": "C#",
           "languageColor": "#178600",
-          "stars": 27910,
+          "stars": 27919,
           "forks": 1891,
           "starsToday": 12907,
           "contributors": [
@@ -2166,6 +2205,45 @@
   "repositories": [
     {
       "rank": 1,
+      "name": "diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "owner": "cathrynlavery",
+      "desc": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "href": "https://github.com/cathrynlavery/diagram-design",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "stars": 9452,
+      "forks": 610,
+      "starsToday": 2951,
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
+          "username": "cathrynlavery"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19864447?s=40&v=4",
+          "username": "web-flow"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
+          "username": "parveen0029"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57676953?s=40&v=4",
+          "username": "daanmlab"
+        }
+      ],
+      "tags": [
+        "html",
+        "ai"
+      ]
+    },
+    {
+      "rank": 2,
       "name": "macro",
       "repo": "macro-inc/macro",
       "owner": "macro-inc",
@@ -2173,8 +2251,8 @@
       "href": "https://github.com/macro-inc/macro",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 1463,
-      "forks": 197,
+      "stars": 1514,
+      "forks": 202,
       "starsToday": 325,
       "contributors": [
         {
@@ -2210,7 +2288,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "semantica",
       "repo": "semantica-agi/semantica",
       "owner": "semantica-agi",
@@ -2218,7 +2296,7 @@
       "href": "https://github.com/semantica-agi/semantica",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 5550,
+      "stars": 5569,
       "forks": 612,
       "starsToday": 834,
       "contributors": [
@@ -2255,7 +2333,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "orca",
       "repo": "stablyai/orca",
       "owner": "stablyai",
@@ -2263,8 +2341,8 @@
       "href": "https://github.com/stablyai/orca",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 43634,
-      "forks": 3042,
+      "stars": 43670,
+      "forks": 3043,
       "starsToday": 1215,
       "contributors": [
         {
@@ -2300,7 +2378,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "agency-agents",
       "repo": "msitarzewski/agency-agents",
       "owner": "msitarzewski",
@@ -2308,7 +2386,7 @@
       "href": "https://github.com/msitarzewski/agency-agents",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 144403,
+      "stars": 144431,
       "forks": 23405,
       "starsToday": 1969,
       "contributors": [
@@ -2340,7 +2418,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Kronos",
       "repo": "shiyu-coder/Kronos",
       "owner": "shiyu-coder",
@@ -2348,8 +2426,8 @@
       "href": "https://github.com/shiyu-coder/Kronos",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 36891,
-      "forks": 6144,
+      "stars": 36897,
+      "forks": 6145,
       "starsToday": 277,
       "contributors": [
         {
@@ -2379,7 +2457,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "MediaCrawler",
       "repo": "NanmiCoder/MediaCrawler",
       "owner": "NanmiCoder",
@@ -2387,8 +2465,8 @@
       "href": "https://github.com/NanmiCoder/MediaCrawler",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 61921,
-      "forks": 12117,
+      "stars": 61929,
+      "forks": 12120,
       "starsToday": 236,
       "contributors": [
         {
@@ -2417,7 +2495,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "ppt-master",
       "repo": "hugohe3/ppt-master",
       "owner": "hugohe3",
@@ -2425,8 +2503,8 @@
       "href": "https://github.com/hugohe3/ppt-master",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 45415,
-      "forks": 3706,
+      "stars": 45437,
+      "forks": 3707,
       "starsToday": 364,
       "contributors": [
         {
@@ -2462,7 +2540,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "ragflow",
       "repo": "infiniflow/ragflow",
       "owner": "infiniflow",
@@ -2470,8 +2548,8 @@
       "href": "https://github.com/infiniflow/ragflow",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 87456,
-      "forks": 10304,
+      "stars": 87471,
+      "forks": 10305,
       "starsToday": 182,
       "contributors": [
         {
@@ -2507,7 +2585,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "paperclip",
       "repo": "paperclipai/paperclip",
       "owner": "paperclipai",
@@ -2515,8 +2593,8 @@
       "href": "https://github.com/paperclipai/paperclip",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 77587,
-      "forks": 14291,
+      "stars": 77605,
+      "forks": 14292,
       "starsToday": 573,
       "contributors": [
         {
@@ -2547,7 +2625,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Switchyard",
       "repo": "NVIDIA-NeMo/Switchyard",
       "owner": "NVIDIA-NeMo",
@@ -2555,8 +2633,8 @@
       "href": "https://github.com/NVIDIA-NeMo/Switchyard",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 704,
-      "forks": 76,
+      "stars": 724,
+      "forks": 77,
       "starsToday": 370,
       "contributors": [
         {
@@ -2585,7 +2663,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "everyone-can-use-english",
       "repo": "ZuodaoTech/everyone-can-use-english",
       "owner": "ZuodaoTech",
@@ -2593,7 +2671,7 @@
       "href": "https://github.com/ZuodaoTech/everyone-can-use-english",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 36014,
+      "stars": 36025,
       "forks": 5025,
       "starsToday": 53,
       "contributors": [
@@ -2623,7 +2701,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "spiderfoot",
       "repo": "smicallef/spiderfoot",
       "owner": "smicallef",
@@ -2631,7 +2709,7 @@
       "href": "https://github.com/smicallef/spiderfoot",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 20272,
+      "stars": 20281,
       "forks": 3288,
       "starsToday": 40,
       "contributors": [
@@ -2668,7 +2746,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "localsend",
       "repo": "localsend/localsend",
       "owner": "localsend",
@@ -2676,8 +2754,8 @@
       "href": "https://github.com/localsend/localsend",
       "language": "Dart",
       "languageColor": "#00B4AB",
-      "stars": 87642,
-      "forks": 4862,
+      "stars": 87668,
+      "forks": 4864,
       "starsToday": 284,
       "contributors": [
         {
@@ -2709,7 +2787,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "LTX-2",
       "repo": "Lightricks/LTX-2",
       "owner": "Lightricks",
@@ -2717,7 +2795,7 @@
       "href": "https://github.com/Lightricks/LTX-2",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 8646,
+      "stars": 8651,
       "forks": 1392,
       "starsToday": 40,
       "contributors": [
@@ -2741,7 +2819,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "embabel-agent",
       "repo": "embabel/embabel-agent",
       "owner": "embabel",
@@ -2749,8 +2827,8 @@
       "href": "https://github.com/embabel/embabel-agent",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": 4190,
-      "forks": 410,
+      "stars": 4194,
+      "forks": 411,
       "starsToday": 29,
       "contributors": [
         {
@@ -2786,7 +2864,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "needle",
       "repo": "cactus-compute/needle",
       "owner": "cactus-compute",
@@ -2794,8 +2872,8 @@
       "href": "https://github.com/cactus-compute/needle",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 4046,
-      "forks": 298,
+      "stars": 4064,
+      "forks": 300,
       "starsToday": 346,
       "contributors": [
         {
