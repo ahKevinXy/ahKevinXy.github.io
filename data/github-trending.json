@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-17T08:48:10.474Z",
+  "updatedAt": "2026-10-17T12:57:27.997Z",
   "updatedDate": "2026-10-17",
-  "updatedTime": "16:48:10",
-  "updatedHis": "164810",
+  "updatedTime": "20:57:27",
+  "updatedHis": "205727",
   "timeZone": "Asia/Shanghai",
   "date": "2026-10-17",
   "since": "daily",
@@ -24,9 +24,9 @@
           "href": "https://github.com/anthropics/claude-plugins-official",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 40985,
-          "forks": 4424,
-          "starsToday": 1552,
+          "stars": 41181,
+          "forks": 4432,
+          "starsToday": 1383,
           "contributors": [
             {
               "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
@@ -57,47 +57,47 @@
         },
         {
           "rank": 2,
-          "name": "scientific-agent-skills",
-          "repo": "K-Dense-AI/scientific-agent-skills",
-          "owner": "K-Dense-AI",
-          "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-          "href": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "name": "ai-job-search",
+          "repo": "MadsLorentzen/ai-job-search",
+          "owner": "MadsLorentzen",
+          "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+          "href": "https://github.com/MadsLorentzen/ai-job-search",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 51799,
-          "forks": 4587,
-          "starsToday": 1158,
+          "stars": 49302,
+          "forks": 16757,
+          "starsToday": 1397,
           "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
-              "username": "timothykassis"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-              "username": "cursoragent"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
-              "username": "borealBytes"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
-              "username": "github-actions"
-            },
             {
               "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
               "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/50207393?s=40&v=4",
+              "username": "MadsLorentzen"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
+              "username": "ayobamiseun"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/80536682?s=40&v=4",
+              "username": "oscarbol09"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/17257805?s=40&v=4",
+              "username": "jakob1379"
             }
           ],
           "tags": [
-            "ai-scientist",
-            "bioinformatics",
-            "chemoinformatics",
-            "claude",
-            "claude-skills",
-            "claudecode",
-            "clinical-research",
-            "computational-biology"
+            "ai",
+            "ai-agents",
+            "career",
+            "claude-code",
+            "cover-letter",
+            "cv",
+            "interview-preparation",
+            "job-application"
           ]
         },
         {
@@ -109,9 +109,9 @@
           "href": "https://github.com/affaan-m/ECC",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 281798,
-          "forks": 41904,
-          "starsToday": 1057,
+          "stars": 281978,
+          "forks": 41936,
+          "starsToday": 1145,
           "contributors": [
             {
               "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
@@ -154,9 +154,9 @@
           "href": "https://github.com/HKUDS/CLI-Anything",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 53684,
-          "forks": 4871,
-          "starsToday": 281,
+          "stars": 53789,
+          "forks": 4883,
+          "starsToday": 580,
           "contributors": [
             {
               "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&v=4",
@@ -187,20 +187,28 @@
         },
         {
           "rank": 5,
-          "name": "context-mode",
-          "repo": "mksglu/context-mode",
-          "owner": "mksglu",
-          "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-          "href": "https://github.com/mksglu/context-mode",
-          "language": "TypeScript",
-          "languageColor": "#3178c6",
-          "stars": 30359,
-          "forks": 2156,
-          "starsToday": 449,
+          "name": "scientific-agent-skills",
+          "repo": "K-Dense-AI/scientific-agent-skills",
+          "owner": "K-Dense-AI",
+          "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+          "href": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "language": "Python",
+          "languageColor": "#3572A5",
+          "stars": 51948,
+          "forks": 4599,
+          "starsToday": 879,
           "contributors": [
             {
-              "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
-              "username": "mksglu"
+              "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
+              "username": "timothykassis"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+              "username": "cursoragent"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
+              "username": "borealBytes"
             },
             {
               "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
@@ -209,66 +217,57 @@
             {
               "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
               "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
-              "username": "ipedro"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-              "username": "ousamabenyounes"
             }
           ],
           "tags": [
+            "ai-scientist",
+            "bioinformatics",
+            "chemoinformatics",
             "claude",
-            "claude-code",
-            "claude-code-plugins",
-            "mcp",
-            "skills",
-            "codex",
-            "copilot",
-            "opencode"
+            "claude-skills",
+            "claudecode",
+            "clinical-research",
+            "computational-biology"
           ]
         },
         {
           "rank": 6,
-          "name": "ruflo",
-          "repo": "ruvnet/ruflo",
-          "owner": "ruvnet",
-          "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-          "href": "https://github.com/ruvnet/ruflo",
-          "language": "TypeScript",
-          "languageColor": "#3178c6",
-          "stars": 75766,
-          "forks": 8976,
-          "starsToday": 672,
+          "name": "ai-memory",
+          "repo": "akitaonrails/ai-memory",
+          "owner": "akitaonrails",
+          "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+          "href": "https://github.com/akitaonrails/ai-memory",
+          "language": "Rust",
+          "languageColor": "#dea584",
+          "stars": 9695,
+          "forks": 693,
+          "starsToday": 159,
           "contributors": [
             {
-              "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
-              "username": "ruvnet"
+              "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&v=4",
+              "username": "akitaonrails"
             },
             {
               "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
               "username": "claude"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-              "username": "rudycelekli"
+              "avatar": "https://avatars.githubusercontent.com/u/1858147?s=40&v=4",
+              "username": "djalmajr"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
-              "username": "proffesor-for-testing"
+              "avatar": "https://avatars.githubusercontent.com/u/95101505?s=40&v=4",
+              "username": "viniciusdsandrade"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/58889432?s=40&v=4",
+              "username": "everton-dgn"
             }
           ],
           "tags": [
-            "swarm",
-            "agentic-ai",
-            "agentic-framework",
-            "agentic-workflow",
-            "autonomous-agents",
-            "codex",
-            "mcp-server",
-            "multi-agent"
+            "rust",
+            "ai",
+            "developer-tools"
           ]
         },
         {
@@ -280,9 +279,9 @@
           "href": "https://github.com/android/skills",
           "language": "Kotlin",
           "languageColor": "#A97BFF",
-          "stars": 8187,
-          "forks": 540,
-          "starsToday": 36,
+          "stars": 8265,
+          "forks": 543,
+          "starsToday": 368,
           "contributors": [
             {
               "avatar": "https://avatars.githubusercontent.com/u/133978327?s=40&v=4",
@@ -311,85 +310,87 @@
         },
         {
           "rank": 8,
-          "name": "superpowers",
-          "repo": "obra/superpowers",
-          "owner": "obra",
-          "desc": "An agentic skills framework & software development methodology that works.",
-          "href": "https://github.com/obra/superpowers",
-          "language": "Shell",
-          "languageColor": "#89e051",
-          "stars": 300884,
-          "forks": 26862,
-          "starsToday": 973,
+          "name": "orca",
+          "repo": "stablyai/orca",
+          "owner": "stablyai",
+          "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+          "href": "https://github.com/stablyai/orca",
+          "language": "TypeScript",
+          "languageColor": "#3178c6",
+          "stars": 94875,
+          "forks": 6074,
+          "starsToday": 1102,
           "contributors": [
             {
-              "avatar": "https://avatars.githubusercontent.com/u/45416?s=40&v=4",
-              "username": "obra"
+              "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&v=4",
+              "username": "nwparker"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/5742859?s=40&v=4",
-              "username": "arittr"
+              "avatar": "https://avatars.githubusercontent.com/u/79079362?s=40&v=4",
+              "username": "brennanb2025"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/6427696?s=40&v=4",
+              "username": "AmethystLiang"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/73622457?s=40&v=4",
+              "username": "Jinwoo-H"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/277417572?s=40&v=4",
+              "username": "orca-ide"
+            }
+          ],
+          "tags": [
+            "claude-code",
+            "codex",
+            "ghostty",
+            "terminal",
+            "opencode",
+            "orchestration",
+            "worktrees",
+            "pi"
+          ]
+        },
+        {
+          "rank": 9,
+          "name": "claude-code",
+          "repo": "anthropics/claude-code",
+          "owner": "anthropics",
+          "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+          "href": "https://github.com/anthropics/claude-code",
+          "language": "TypeScript",
+          "languageColor": "#3178c6",
+          "stars": 151381,
+          "forks": 26859,
+          "starsToday": 168,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
+              "username": "actions-user"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/7668446?s=40&v=4",
+              "username": "poteat"
             },
             {
               "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
               "username": "claude"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/69736?s=40&v=4",
-              "username": "clkao"
+              "avatar": "https://avatars.githubusercontent.com/u/1761758?s=40&v=4",
+              "username": "bcherny"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/12824278?s=40&v=4",
-              "username": "gaurav0107"
+              "avatar": "https://avatars.githubusercontent.com/u/209710463?s=40&v=4",
+              "username": "ant-kurt"
             }
           ],
           "tags": [
+            "typescript",
             "ai",
-            "brainstorming",
-            "coding",
-            "obra",
-            "sdlc",
-            "skills",
-            "superpowers",
-            "subagent-driven-development"
-          ]
-        },
-        {
-          "rank": 9,
-          "name": "plugins",
-          "repo": "cursor/plugins",
-          "owner": "cursor",
-          "desc": "Cursor plugin specification and official plugins",
-          "href": "https://github.com/cursor/plugins",
-          "language": "TypeScript",
-          "languageColor": "#3178c6",
-          "stars": 12116,
-          "forks": 1176,
-          "starsToday": 278,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-              "username": "cursoragent"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/1390709?s=40&v=4",
-              "username": "poteto"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/2145689?s=40&v=4",
-              "username": "minupalaniappan"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/25622412?s=40&v=4",
-              "username": "ericzakariasson"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/930790?s=40&v=4",
-              "username": "roshansada"
-            }
-          ],
-          "tags": [
-            "typescript"
+            "developer-tools"
           ]
         },
         {
@@ -401,9 +402,9 @@
           "href": "https://github.com/debpalash/VoiceStudio",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 71877,
-          "forks": 7853,
-          "starsToday": 2301,
+          "stars": 72266,
+          "forks": 7897,
+          "starsToday": 2135,
           "contributors": [
             {
               "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&v=4",
@@ -439,92 +440,82 @@
         },
         {
           "rank": 11,
-          "name": "ai-job-search",
-          "repo": "MadsLorentzen/ai-job-search",
-          "owner": "MadsLorentzen",
-          "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-          "href": "https://github.com/MadsLorentzen/ai-job-search",
-          "language": "Python",
-          "languageColor": "#3572A5",
-          "stars": 48963,
-          "forks": 16708,
-          "starsToday": 898,
+          "name": "opencode",
+          "repo": "anomalyco/opencode",
+          "owner": "anomalyco",
+          "desc": "The open source coding agent.",
+          "href": "https://github.com/anomalyco/opencode",
+          "language": "TypeScript",
+          "languageColor": "#3178c6",
+          "stars": 214623,
+          "forks": 28809,
+          "starsToday": 488,
           "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&v=4",
+              "username": "thdxr"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/63023139?s=40&v=4",
+              "username": "rekram1-node"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/2363879?s=40&v=4",
+              "username": "adamdotdevin"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/in/1549082?s=40&v=4",
+              "username": "opencode-agent"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&v=4",
+              "username": "kitlangton"
+            }
+          ],
+          "tags": [
+            "typescript",
+            "ai"
+          ]
+        },
+        {
+          "rank": 12,
+          "name": "ruflo",
+          "repo": "ruvnet/ruflo",
+          "owner": "ruvnet",
+          "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+          "href": "https://github.com/ruvnet/ruflo",
+          "language": "TypeScript",
+          "languageColor": "#3178c6",
+          "stars": 75831,
+          "forks": 8985,
+          "starsToday": 406,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
+              "username": "ruvnet"
+            },
             {
               "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
               "username": "claude"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/50207393?s=40&v=4",
-              "username": "MadsLorentzen"
+              "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+              "username": "rudycelekli"
             },
             {
-              "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
-              "username": "ayobamiseun"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/80536682?s=40&v=4",
-              "username": "oscarbol09"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/17257805?s=40&v=4",
-              "username": "jakob1379"
+              "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
+              "username": "proffesor-for-testing"
             }
           ],
           "tags": [
-            "ai",
-            "ai-agents",
-            "career",
-            "claude-code",
-            "cover-letter",
-            "cv",
-            "interview-preparation",
-            "job-application"
-          ]
-        },
-        {
-          "rank": 12,
-          "name": "LinkSwift",
-          "repo": "hmjz100/LinkSwift",
-          "owner": "hmjz100",
-          "desc": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
-          "href": "https://github.com/hmjz100/LinkSwift",
-          "language": "JavaScript",
-          "languageColor": "#f1e05a",
-          "stars": 24115,
-          "forks": 1467,
-          "starsToday": 538,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/98228280?s=40&v=4",
-              "username": "hmjz100"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/62408957?s=40&v=4",
-              "username": "MisaLiu"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/99261160?s=40&v=4",
-              "username": "Night-stars-1"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/46892455?s=40&v=4",
-              "username": "DeepslateQAQ"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/61721162?s=40&v=4",
-              "username": "bilili-syy"
-            }
-          ],
-          "tags": [
-            "aliyun-drive",
-            "baidu",
-            "baidu-netdisk",
-            "quark-netdisk",
-            "tianyi-netdisk",
-            "xunlei-netdisk",
-            "yidong-netdisk",
-            "tampermonkey"
+            "swarm",
+            "agentic-ai",
+            "agentic-framework",
+            "agentic-workflow",
+            "autonomous-agents",
+            "codex",
+            "mcp-server",
+            "multi-agent"
           ]
         },
         {
@@ -536,9 +527,9 @@
           "href": "https://github.com/xerj-org/xerj",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 7235,
-          "forks": 372,
-          "starsToday": 1648,
+          "stars": 7388,
+          "forks": 382,
+          "starsToday": 1102,
           "contributors": [
             {
               "avatar": "https://avatars.githubusercontent.com/u/297525353?s=40&v=4",
@@ -589,8 +580,8 @@
           "href": "https://github.com/morluto/rea",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 296427,
-          "forks": 74852,
+          "stars": 299810,
+          "forks": 75758,
           "starsToday": 248962,
           "contributors": [
             {
@@ -634,8 +625,8 @@
           "href": "https://github.com/storytold/artcraft",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 31002,
-          "forks": 4918,
+          "stars": 31221,
+          "forks": 4954,
           "starsToday": 20267,
           "contributors": [
             {
@@ -676,8 +667,8 @@
           "href": "https://github.com/boykopovar/AnyPS5",
           "language": "C++",
           "languageColor": "#f34b7d",
-          "stars": 40200,
-          "forks": 3612,
+          "stars": 40509,
+          "forks": 3632,
           "starsToday": 20518,
           "contributors": [
             {
@@ -720,8 +711,8 @@
           "href": "https://github.com/cathrynlavery/diagram-design",
           "language": "HTML",
           "languageColor": "#e34c26",
-          "stars": 56604,
-          "forks": 3598,
+          "stars": 56712,
+          "forks": 3608,
           "starsToday": 9024,
           "contributors": [
             {
@@ -758,6 +749,46 @@
         },
         {
           "rank": 5,
+          "name": "claude-plugins-official",
+          "repo": "anthropics/claude-plugins-official",
+          "owner": "anthropics",
+          "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+          "href": "https://github.com/anthropics/claude-plugins-official",
+          "language": "Python",
+          "languageColor": "#3572A5",
+          "stars": 41181,
+          "forks": 4432,
+          "starsToday": 2328,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
+              "username": "github-actions"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
+              "username": "jordanecker-ant"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
+              "username": "bryan-anthropic"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+              "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
+              "username": "mhegazy"
+            }
+          ],
+          "tags": [
+            "claude-code",
+            "mcp",
+            "skills"
+          ]
+        },
+        {
+          "rank": 6,
           "name": "hyperframes",
           "repo": "heygen-com/hyperframes",
           "owner": "heygen-com",
@@ -765,8 +796,8 @@
           "href": "https://github.com/heygen-com/hyperframes",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 65520,
-          "forks": 5907,
+          "stars": 65635,
+          "forks": 5922,
           "starsToday": 5601,
           "contributors": [
             {
@@ -802,82 +833,7 @@
           ]
         },
         {
-          "rank": 6,
-          "name": "skills",
-          "repo": "mattpocock/skills",
-          "owner": "mattpocock",
-          "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-          "href": "https://github.com/mattpocock/skills",
-          "language": "Shell",
-          "languageColor": "#89e051",
-          "stars": 294388,
-          "forks": 24681,
-          "starsToday": 11937,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
-              "username": "mattpocock"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
-              "username": "github-actions"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
-              "username": "gabimoncha"
-            }
-          ],
-          "tags": [
-            "shell",
-            "ai"
-          ]
-        },
-        {
           "rank": 7,
-          "name": "ghidra",
-          "repo": "NationalSecurityAgency/ghidra",
-          "owner": "NationalSecurityAgency",
-          "desc": "Ghidra is a software reverse engineering (SRE) framework",
-          "href": "https://github.com/NationalSecurityAgency/ghidra",
-          "language": "Java",
-          "languageColor": "#b07219",
-          "stars": 89837,
-          "forks": 10047,
-          "starsToday": 7510,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&v=4",
-              "username": "ryanmkurtz"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/48333017?s=40&v=4",
-              "username": "ghidra1"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/48328597?s=40&v=4",
-              "username": "dragonmacher"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/46821332?s=40&v=4",
-              "username": "nsadeveloper789"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/48068198?s=40&v=4",
-              "username": "caheckman"
-            }
-          ],
-          "tags": [
-            "software-analysis",
-            "disassembler",
-            "reverse-engineering"
-          ]
-        },
-        {
-          "rank": 8,
           "name": "context-mode",
           "repo": "mksglu/context-mode",
           "owner": "mksglu",
@@ -885,8 +841,8 @@
           "href": "https://github.com/mksglu/context-mode",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 30359,
-          "forks": 2156,
+          "stars": 30409,
+          "forks": 2184,
           "starsToday": 4207,
           "contributors": [
             {
@@ -922,7 +878,82 @@
           ]
         },
         {
+          "rank": 8,
+          "name": "ghidra",
+          "repo": "NationalSecurityAgency/ghidra",
+          "owner": "NationalSecurityAgency",
+          "desc": "Ghidra is a software reverse engineering (SRE) framework",
+          "href": "https://github.com/NationalSecurityAgency/ghidra",
+          "language": "Java",
+          "languageColor": "#b07219",
+          "stars": 89959,
+          "forks": 10066,
+          "starsToday": 7510,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&v=4",
+              "username": "ryanmkurtz"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/48333017?s=40&v=4",
+              "username": "ghidra1"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/48328597?s=40&v=4",
+              "username": "dragonmacher"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/46821332?s=40&v=4",
+              "username": "nsadeveloper789"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/48068198?s=40&v=4",
+              "username": "caheckman"
+            }
+          ],
+          "tags": [
+            "software-analysis",
+            "disassembler",
+            "reverse-engineering"
+          ]
+        },
+        {
           "rank": 9,
+          "name": "skills",
+          "repo": "mattpocock/skills",
+          "owner": "mattpocock",
+          "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+          "href": "https://github.com/mattpocock/skills",
+          "language": "Shell",
+          "languageColor": "#89e051",
+          "stars": 294567,
+          "forks": 24703,
+          "starsToday": 11937,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
+              "username": "mattpocock"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+              "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
+              "username": "github-actions"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
+              "username": "gabimoncha"
+            }
+          ],
+          "tags": [
+            "shell",
+            "ai"
+          ]
+        },
+        {
+          "rank": 10,
           "name": "billion-context",
           "repo": "ranxianglei/billion-context",
           "owner": "ranxianglei",
@@ -930,8 +961,8 @@
           "href": "https://github.com/ranxianglei/billion-context",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 1593,
-          "forks": 129,
+          "stars": 1628,
+          "forks": 132,
           "starsToday": 779,
           "contributors": [
             {
@@ -958,91 +989,6 @@
           "tags": [
             "dsh-plugin"
           ]
-        },
-        {
-          "rank": 10,
-          "name": "claude-plugins-official",
-          "repo": "anthropics/claude-plugins-official",
-          "owner": "anthropics",
-          "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-          "href": "https://github.com/anthropics/claude-plugins-official",
-          "language": "Python",
-          "languageColor": "#3572A5",
-          "stars": 40985,
-          "forks": 4424,
-          "starsToday": 2328,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
-              "username": "github-actions"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
-              "username": "jordanecker-ant"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-              "username": "bryan-anthropic"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
-              "username": "mhegazy"
-            }
-          ],
-          "tags": [
-            "claude-code",
-            "mcp",
-            "skills"
-          ]
-        },
-        {
-          "rank": 11,
-          "name": "text-to-cad",
-          "repo": "earthtojake/text-to-cad",
-          "owner": "earthtojake",
-          "desc": "Give your agent CAD superpowers.",
-          "href": "https://github.com/earthtojake/text-to-cad",
-          "language": "Python",
-          "languageColor": "#3572A5",
-          "stars": 21098,
-          "forks": 2085,
-          "starsToday": 2286,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/10742417?s=40&v=4",
-              "username": "earthtojake"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
-              "username": "github-actions"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/143688508?s=40&v=4",
-              "username": "warun7"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&v=4",
-              "username": "dependabot"
-            }
-          ],
-          "tags": [
-            "agents",
-            "ai-agents",
-            "cad",
-            "text-to-cad",
-            "mechanical-engineering",
-            "robotics",
-            "step",
-            "stl"
-          ]
         }
       ]
     },
@@ -1061,8 +1007,8 @@
           "href": "https://github.com/cloudflare/security-audit-skill",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 30371,
-          "forks": 1889,
+          "stars": 30443,
+          "forks": 1900,
           "starsToday": 24844,
           "contributors": [
             {
@@ -1093,8 +1039,8 @@
           "href": "https://github.com/paperclipai/paperclip",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 103308,
-          "forks": 17276,
+          "stars": 103385,
+          "forks": 17286,
           "starsToday": 22617,
           "contributors": [
             {
@@ -1138,8 +1084,8 @@
           "href": "https://github.com/anthropics/financial-services",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 40129,
-          "forks": 5633,
+          "stars": 40143,
+          "forks": 5634,
           "starsToday": 5343,
           "contributors": [
             {
@@ -1176,8 +1122,8 @@
           "href": "https://github.com/heygen-com/hyperframes",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 65520,
-          "forks": 5907,
+          "stars": 65635,
+          "forks": 5922,
           "starsToday": 14754,
           "contributors": [
             {
@@ -1214,47 +1160,6 @@
         },
         {
           "rank": 5,
-          "name": "hindsight",
-          "repo": "vectorize-io/hindsight",
-          "owner": "vectorize-io",
-          "desc": "Hindsight: Agent Memory That Learns",
-          "href": "https://github.com/vectorize-io/hindsight",
-          "language": "Python",
-          "languageColor": "#3572A5",
-          "stars": 50622,
-          "forks": 6118,
-          "starsToday": 26912,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/23314389?s=40&v=4",
-              "username": "nicoloboschi"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/62250174?s=40&v=4",
-              "username": "benfrank241"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/22917476?s=40&v=4",
-              "username": "cdbartholomew"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/233881301?s=40&v=4",
-              "username": "r266-tech"
-            }
-          ],
-          "tags": [
-            "agentic-ai",
-            "memory",
-            "agents",
-            "ai-memory"
-          ]
-        },
-        {
-          "rank": 6,
           "name": "VoiceStudio",
           "repo": "debpalash/VoiceStudio",
           "owner": "debpalash",
@@ -1262,8 +1167,8 @@
           "href": "https://github.com/debpalash/VoiceStudio",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 71877,
-          "forks": 7853,
+          "stars": 72266,
+          "forks": 7897,
           "starsToday": 38923,
           "contributors": [
             {
@@ -1299,7 +1204,87 @@
           ]
         },
         {
+          "rank": 6,
+          "name": "hindsight",
+          "repo": "vectorize-io/hindsight",
+          "owner": "vectorize-io",
+          "desc": "Hindsight: Agent Memory That Learns",
+          "href": "https://github.com/vectorize-io/hindsight",
+          "language": "Python",
+          "languageColor": "#3572A5",
+          "stars": 50685,
+          "forks": 6120,
+          "starsToday": 26912,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/23314389?s=40&v=4",
+              "username": "nicoloboschi"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/62250174?s=40&v=4",
+              "username": "benfrank241"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+              "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/22917476?s=40&v=4",
+              "username": "cdbartholomew"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/233881301?s=40&v=4",
+              "username": "r266-tech"
+            }
+          ],
+          "tags": [
+            "agentic-ai",
+            "memory",
+            "agents",
+            "ai-memory"
+          ]
+        },
+        {
           "rank": 7,
+          "name": "substrate",
+          "repo": "agent-substrate/substrate",
+          "owner": "agent-substrate",
+          "desc": "Agent Substrate: the core system",
+          "href": "https://github.com/agent-substrate/substrate",
+          "language": "Go",
+          "languageColor": "#00ADD8",
+          "stars": 5370,
+          "forks": 589,
+          "starsToday": 3417,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&v=4",
+              "username": "BenTheElder"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/680407?s=40&v=4",
+              "username": "juli4n"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/55463354?s=40&v=4",
+              "username": "HavenXia"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/5595220?s=40&v=4",
+              "username": "thockin"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/76940994?s=40&v=4",
+              "username": "LiorLieberman"
+            }
+          ],
+          "tags": [
+            "go",
+            "ai"
+          ]
+        },
+        {
+          "rank": 8,
           "name": "ECC",
           "repo": "affaan-m/ECC",
           "owner": "affaan-m",
@@ -1307,8 +1292,8 @@
           "href": "https://github.com/affaan-m/ECC",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 281798,
-          "forks": 41904,
+          "stars": 281978,
+          "forks": 41936,
           "starsToday": 23005,
           "contributors": [
             {
@@ -1344,85 +1329,7 @@
           ]
         },
         {
-          "rank": 8,
-          "name": "substrate",
-          "repo": "agent-substrate/substrate",
-          "owner": "agent-substrate",
-          "desc": "Agent Substrate: the core system",
-          "href": "https://github.com/agent-substrate/substrate",
-          "language": "Go",
-          "languageColor": "#00ADD8",
-          "stars": 5354,
-          "forks": 588,
-          "starsToday": 3417,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/917931?s=40&v=4",
-              "username": "BenTheElder"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/680407?s=40&v=4",
-              "username": "juli4n"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/55463354?s=40&v=4",
-              "username": "HavenXia"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/5595220?s=40&v=4",
-              "username": "thockin"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/76940994?s=40&v=4",
-              "username": "LiorLieberman"
-            }
-          ],
-          "tags": [
-            "go",
-            "ai"
-          ]
-        },
-        {
           "rank": 9,
-          "name": "knowledge-work-plugins",
-          "repo": "anthropics/knowledge-work-plugins",
-          "owner": "anthropics",
-          "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-          "href": "https://github.com/anthropics/knowledge-work-plugins",
-          "language": "Python",
-          "languageColor": "#3572A5",
-          "stars": 29918,
-          "forks": 3381,
-          "starsToday": 5827,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
-              "username": "github-actions"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
-              "username": "jordanecker-ant"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-              "username": "bryan-anthropic"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
-              "username": "mattpic-ant"
-            }
-          ],
-          "tags": [
-            "python",
-            "ai"
-          ]
-        },
-        {
-          "rank": 10,
           "name": "context-mode",
           "repo": "mksglu/context-mode",
           "owner": "mksglu",
@@ -1430,8 +1337,8 @@
           "href": "https://github.com/mksglu/context-mode",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 30359,
-          "forks": 2156,
+          "stars": 30409,
+          "forks": 2184,
           "starsToday": 6983,
           "contributors": [
             {
@@ -1467,6 +1374,45 @@
           ]
         },
         {
+          "rank": 10,
+          "name": "knowledge-work-plugins",
+          "repo": "anthropics/knowledge-work-plugins",
+          "owner": "anthropics",
+          "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+          "href": "https://github.com/anthropics/knowledge-work-plugins",
+          "language": "Python",
+          "languageColor": "#3572A5",
+          "stars": 29933,
+          "forks": 3383,
+          "starsToday": 5827,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
+              "username": "github-actions"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
+              "username": "jordanecker-ant"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
+              "username": "bryan-anthropic"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+              "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
+              "username": "mattpic-ant"
+            }
+          ],
+          "tags": [
+            "python",
+            "ai"
+          ]
+        },
+        {
           "rank": 11,
           "name": "OpenShell",
           "repo": "NVIDIA/OpenShell",
@@ -1475,8 +1421,8 @@
           "href": "https://github.com/NVIDIA/OpenShell",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 16483,
-          "forks": 1805,
+          "stars": 16494,
+          "forks": 1807,
           "starsToday": 7885,
           "contributors": [
             {
@@ -1514,8 +1460,8 @@
           "href": "https://github.com/tashfeenahmed/freellmapi",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 36339,
-          "forks": 4907,
+          "stars": 36409,
+          "forks": 4914,
           "starsToday": 9724,
           "contributors": [
             {
@@ -1547,6 +1493,46 @@
         },
         {
           "rank": 13,
+          "name": "ghidra",
+          "repo": "NationalSecurityAgency/ghidra",
+          "owner": "NationalSecurityAgency",
+          "desc": "Ghidra is a software reverse engineering (SRE) framework",
+          "href": "https://github.com/NationalSecurityAgency/ghidra",
+          "language": "Java",
+          "languageColor": "#b07219",
+          "stars": 89959,
+          "forks": 10066,
+          "starsToday": 12214,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&v=4",
+              "username": "ryanmkurtz"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/48333017?s=40&v=4",
+              "username": "ghidra1"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/48328597?s=40&v=4",
+              "username": "dragonmacher"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/46821332?s=40&v=4",
+              "username": "nsadeveloper789"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/48068198?s=40&v=4",
+              "username": "caheckman"
+            }
+          ],
+          "tags": [
+            "software-analysis",
+            "disassembler",
+            "reverse-engineering"
+          ]
+        },
+        {
+          "rank": 14,
           "name": "Octop",
           "repo": "TencentCloud/Octop",
           "owner": "TencentCloud",
@@ -1554,8 +1540,8 @@
           "href": "https://github.com/TencentCloud/Octop",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 9714,
-          "forks": 1233,
+          "stars": 9730,
+          "forks": 1243,
           "starsToday": 6877,
           "contributors": [
             {
@@ -1590,7 +1576,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "cua",
           "repo": "trycua/cua",
           "owner": "trycua",
@@ -1598,7 +1584,7 @@
           "href": "https://github.com/trycua/cua",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 29990,
+          "stars": 30003,
           "forks": 2150,
           "starsToday": 7397,
           "contributors": [
@@ -1635,175 +1621,7 @@
           ]
         },
         {
-          "rank": 15,
-          "name": "ghidra",
-          "repo": "NationalSecurityAgency/ghidra",
-          "owner": "NationalSecurityAgency",
-          "desc": "Ghidra is a software reverse engineering (SRE) framework",
-          "href": "https://github.com/NationalSecurityAgency/ghidra",
-          "language": "Java",
-          "languageColor": "#b07219",
-          "stars": 89837,
-          "forks": 10047,
-          "starsToday": 12214,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/5378554?s=40&v=4",
-              "username": "ryanmkurtz"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/48333017?s=40&v=4",
-              "username": "ghidra1"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/48328597?s=40&v=4",
-              "username": "dragonmacher"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/46821332?s=40&v=4",
-              "username": "nsadeveloper789"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/48068198?s=40&v=4",
-              "username": "caheckman"
-            }
-          ],
-          "tags": [
-            "software-analysis",
-            "disassembler",
-            "reverse-engineering"
-          ]
-        },
-        {
           "rank": 16,
-          "name": "agent-skills",
-          "repo": "addyosmani/agent-skills",
-          "owner": "addyosmani",
-          "desc": "Production-grade engineering skills for AI coding agents.",
-          "href": "https://github.com/addyosmani/agent-skills",
-          "language": "JavaScript",
-          "languageColor": "#f1e05a",
-          "stars": 107551,
-          "forks": 11203,
-          "starsToday": 12847,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/110953?s=40&v=4",
-              "username": "addyosmani"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/1307927?s=40&v=4",
-              "username": "nucliweb"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
-              "username": "ayobamiseun"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/27234034?s=40&v=4",
-              "username": "federicobartoli"
-            }
-          ],
-          "tags": [
-            "agent-skills",
-            "antigravity",
-            "claude-code",
-            "cursor",
-            "skills",
-            "codex"
-          ]
-        },
-        {
-          "rank": 17,
-          "name": "claude-code",
-          "repo": "anthropics/claude-code",
-          "owner": "anthropics",
-          "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-          "href": "https://github.com/anthropics/claude-code",
-          "language": "TypeScript",
-          "languageColor": "#3178c6",
-          "stars": 151307,
-          "forks": 26853,
-          "starsToday": 6803,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
-              "username": "actions-user"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/7668446?s=40&v=4",
-              "username": "poteat"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/1761758?s=40&v=4",
-              "username": "bcherny"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/209710463?s=40&v=4",
-              "username": "ant-kurt"
-            }
-          ],
-          "tags": [
-            "typescript",
-            "ai",
-            "developer-tools"
-          ]
-        },
-        {
-          "rank": 18,
-          "name": "WeKnora",
-          "repo": "Tencent/WeKnora",
-          "owner": "Tencent",
-          "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-          "href": "https://github.com/Tencent/WeKnora",
-          "language": "Go",
-          "languageColor": "#00ADD8",
-          "stars": 34450,
-          "forks": 4592,
-          "starsToday": 9769,
-          "contributors": [
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&v=4",
-              "username": "lyingbug"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/67856742?s=40&v=4",
-              "username": "voidkey"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-              "username": "claude"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/u/216642699?s=40&v=4",
-              "username": "begoniezhao"
-            },
-            {
-              "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&v=4",
-              "username": "dependabot"
-            }
-          ],
-          "tags": [
-            "agent",
-            "agentic",
-            "ai",
-            "golang",
-            "llm",
-            "ollama",
-            "rag",
-            "chatbot"
-          ]
-        },
-        {
-          "rank": 19,
           "name": "ai-engineering-from-scratch",
           "repo": "rohitg00/ai-engineering-from-scratch",
           "owner": "rohitg00",
@@ -1811,8 +1629,8 @@
           "href": "https://github.com/rohitg00/ai-engineering-from-scratch",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 70440,
-          "forks": 12391,
+          "stars": 70505,
+          "forks": 12405,
           "starsToday": 15672,
           "contributors": [
             {
@@ -1848,7 +1666,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 17,
           "name": "plugins",
           "repo": "cursor/plugins",
           "owner": "cursor",
@@ -1856,8 +1674,8 @@
           "href": "https://github.com/cursor/plugins",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 12116,
-          "forks": 1176,
+          "stars": 12165,
+          "forks": 1183,
           "starsToday": 4016,
           "contributors": [
             {
@@ -1884,6 +1702,135 @@
           "tags": [
             "typescript"
           ]
+        },
+        {
+          "rank": 18,
+          "name": "agent-skills",
+          "repo": "addyosmani/agent-skills",
+          "owner": "addyosmani",
+          "desc": "Production-grade engineering skills for AI coding agents.",
+          "href": "https://github.com/addyosmani/agent-skills",
+          "language": "JavaScript",
+          "languageColor": "#f1e05a",
+          "stars": 107622,
+          "forks": 11206,
+          "starsToday": 12847,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/110953?s=40&v=4",
+              "username": "addyosmani"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/1307927?s=40&v=4",
+              "username": "nucliweb"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+              "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
+              "username": "ayobamiseun"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/27234034?s=40&v=4",
+              "username": "federicobartoli"
+            }
+          ],
+          "tags": [
+            "agent-skills",
+            "antigravity",
+            "claude-code",
+            "cursor",
+            "skills",
+            "codex"
+          ]
+        },
+        {
+          "rank": 19,
+          "name": "gpui-kit",
+          "repo": "longbridge/gpui-kit",
+          "owner": "longbridge",
+          "desc": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+          "href": "https://github.com/longbridge/gpui-kit",
+          "language": "Rust",
+          "languageColor": "#dea584",
+          "stars": 17882,
+          "forks": 1084,
+          "starsToday": 3384,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/5518?s=40&v=4",
+              "username": "huacnlee"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/28998859?s=40&v=4",
+              "username": "madcodelife"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+              "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+              "username": "codex"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/22312482?s=40&v=4",
+              "username": "ylinwind"
+            }
+          ],
+          "tags": [
+            "gpui",
+            "desktop-application",
+            "uikit",
+            "rust"
+          ]
+        },
+        {
+          "rank": 20,
+          "name": "WeKnora",
+          "repo": "Tencent/WeKnora",
+          "owner": "Tencent",
+          "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+          "href": "https://github.com/Tencent/WeKnora",
+          "language": "Go",
+          "languageColor": "#00ADD8",
+          "stars": 34468,
+          "forks": 4594,
+          "starsToday": 9769,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&v=4",
+              "username": "lyingbug"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/67856742?s=40&v=4",
+              "username": "voidkey"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+              "username": "claude"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/216642699?s=40&v=4",
+              "username": "begoniezhao"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&v=4",
+              "username": "dependabot"
+            }
+          ],
+          "tags": [
+            "agent",
+            "agentic",
+            "ai",
+            "golang",
+            "llm",
+            "ollama",
+            "rag",
+            "chatbot"
+          ]
         }
       ]
     }
@@ -1898,9 +1845,9 @@
       "href": "https://github.com/anthropics/claude-plugins-official",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 40985,
-      "forks": 4424,
-      "starsToday": 1552,
+      "stars": 41181,
+      "forks": 4432,
+      "starsToday": 1383,
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
@@ -1931,47 +1878,47 @@
     },
     {
       "rank": 2,
-      "name": "scientific-agent-skills",
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "owner": "K-Dense-AI",
-      "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "href": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "name": "ai-job-search",
+      "repo": "MadsLorentzen/ai-job-search",
+      "owner": "MadsLorentzen",
+      "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "href": "https://github.com/MadsLorentzen/ai-job-search",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 51799,
-      "forks": 4587,
-      "starsToday": 1158,
+      "stars": 49302,
+      "forks": 16757,
+      "starsToday": 1397,
       "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
-          "username": "timothykassis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
-          "username": "borealBytes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
-          "username": "github-actions"
-        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50207393?s=40&v=4",
+          "username": "MadsLorentzen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
+          "username": "ayobamiseun"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/80536682?s=40&v=4",
+          "username": "oscarbol09"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17257805?s=40&v=4",
+          "username": "jakob1379"
         }
       ],
       "tags": [
-        "ai-scientist",
-        "bioinformatics",
-        "chemoinformatics",
-        "claude",
-        "claude-skills",
-        "claudecode",
-        "clinical-research",
-        "computational-biology"
+        "ai",
+        "ai-agents",
+        "career",
+        "claude-code",
+        "cover-letter",
+        "cv",
+        "interview-preparation",
+        "job-application"
       ]
     },
     {
@@ -1983,9 +1930,9 @@
       "href": "https://github.com/affaan-m/ECC",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 281798,
-      "forks": 41904,
-      "starsToday": 1057,
+      "stars": 281978,
+      "forks": 41936,
+      "starsToday": 1145,
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
@@ -2028,9 +1975,9 @@
       "href": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 53684,
-      "forks": 4871,
-      "starsToday": 281,
+      "stars": 53789,
+      "forks": 4883,
+      "starsToday": 580,
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&v=4",
@@ -2061,20 +2008,28 @@
     },
     {
       "rank": 5,
-      "name": "context-mode",
-      "repo": "mksglu/context-mode",
-      "owner": "mksglu",
-      "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "href": "https://github.com/mksglu/context-mode",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 30359,
-      "forks": 2156,
-      "starsToday": 449,
+      "name": "scientific-agent-skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "href": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 51948,
+      "forks": 4599,
+      "starsToday": 879,
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
-          "username": "mksglu"
+          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
+          "username": "timothykassis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
+          "username": "borealBytes"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/in/15368?s=40&v=4",
@@ -2083,66 +2038,57 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
-          "username": "ipedro"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "username": "ousamabenyounes"
         }
       ],
       "tags": [
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
         "claude",
-        "claude-code",
-        "claude-code-plugins",
-        "mcp",
-        "skills",
-        "codex",
-        "copilot",
-        "opencode"
+        "claude-skills",
+        "claudecode",
+        "clinical-research",
+        "computational-biology"
       ]
     },
     {
       "rank": 6,
-      "name": "ruflo",
-      "repo": "ruvnet/ruflo",
-      "owner": "ruvnet",
-      "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "href": "https://github.com/ruvnet/ruflo",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 75766,
-      "forks": 8976,
-      "starsToday": 672,
+      "name": "ai-memory",
+      "repo": "akitaonrails/ai-memory",
+      "owner": "akitaonrails",
+      "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "href": "https://github.com/akitaonrails/ai-memory",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 9695,
+      "forks": 693,
+      "starsToday": 159,
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
-          "username": "ruvnet"
+          "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&v=4",
+          "username": "akitaonrails"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/1858147?s=40&v=4",
+          "username": "djalmajr"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
-          "username": "proffesor-for-testing"
+          "avatar": "https://avatars.githubusercontent.com/u/95101505?s=40&v=4",
+          "username": "viniciusdsandrade"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/58889432?s=40&v=4",
+          "username": "everton-dgn"
         }
       ],
       "tags": [
-        "swarm",
-        "agentic-ai",
-        "agentic-framework",
-        "agentic-workflow",
-        "autonomous-agents",
-        "codex",
-        "mcp-server",
-        "multi-agent"
+        "rust",
+        "ai",
+        "developer-tools"
       ]
     },
     {
@@ -2154,9 +2100,9 @@
       "href": "https://github.com/android/skills",
       "language": "Kotlin",
       "languageColor": "#A97BFF",
-      "stars": 8187,
-      "forks": 540,
-      "starsToday": 36,
+      "stars": 8265,
+      "forks": 543,
+      "starsToday": 368,
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/133978327?s=40&v=4",
@@ -2185,85 +2131,87 @@
     },
     {
       "rank": 8,
-      "name": "superpowers",
-      "repo": "obra/superpowers",
-      "owner": "obra",
-      "desc": "An agentic skills framework & software development methodology that works.",
-      "href": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "stars": 300884,
-      "forks": 26862,
-      "starsToday": 973,
+      "name": "orca",
+      "repo": "stablyai/orca",
+      "owner": "stablyai",
+      "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "href": "https://github.com/stablyai/orca",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 94875,
+      "forks": 6074,
+      "starsToday": 1102,
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/45416?s=40&v=4",
-          "username": "obra"
+          "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&v=4",
+          "username": "nwparker"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5742859?s=40&v=4",
-          "username": "arittr"
+          "avatar": "https://avatars.githubusercontent.com/u/79079362?s=40&v=4",
+          "username": "brennanb2025"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6427696?s=40&v=4",
+          "username": "AmethystLiang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/73622457?s=40&v=4",
+          "username": "Jinwoo-H"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/277417572?s=40&v=4",
+          "username": "orca-ide"
+        }
+      ],
+      "tags": [
+        "claude-code",
+        "codex",
+        "ghostty",
+        "terminal",
+        "opencode",
+        "orchestration",
+        "worktrees",
+        "pi"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "claude-code",
+      "repo": "anthropics/claude-code",
+      "owner": "anthropics",
+      "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "href": "https://github.com/anthropics/claude-code",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 151381,
+      "forks": 26859,
+      "starsToday": 168,
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
+          "username": "actions-user"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7668446?s=40&v=4",
+          "username": "poteat"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/69736?s=40&v=4",
-          "username": "clkao"
+          "avatar": "https://avatars.githubusercontent.com/u/1761758?s=40&v=4",
+          "username": "bcherny"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/12824278?s=40&v=4",
-          "username": "gaurav0107"
+          "avatar": "https://avatars.githubusercontent.com/u/209710463?s=40&v=4",
+          "username": "ant-kurt"
         }
       ],
       "tags": [
+        "typescript",
         "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "superpowers",
-        "subagent-driven-development"
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "plugins",
-      "repo": "cursor/plugins",
-      "owner": "cursor",
-      "desc": "Cursor plugin specification and official plugins",
-      "href": "https://github.com/cursor/plugins",
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "stars": 12116,
-      "forks": 1176,
-      "starsToday": 278,
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1390709?s=40&v=4",
-          "username": "poteto"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2145689?s=40&v=4",
-          "username": "minupalaniappan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25622412?s=40&v=4",
-          "username": "ericzakariasson"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/930790?s=40&v=4",
-          "username": "roshansada"
-        }
-      ],
-      "tags": [
-        "typescript"
+        "developer-tools"
       ]
     },
     {
@@ -2275,9 +2223,9 @@
       "href": "https://github.com/debpalash/VoiceStudio",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 71877,
-      "forks": 7853,
-      "starsToday": 2301,
+      "stars": 72266,
+      "forks": 7897,
+      "starsToday": 2135,
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&v=4",
@@ -2313,92 +2261,82 @@
     },
     {
       "rank": 11,
-      "name": "ai-job-search",
-      "repo": "MadsLorentzen/ai-job-search",
-      "owner": "MadsLorentzen",
-      "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "href": "https://github.com/MadsLorentzen/ai-job-search",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "stars": 48963,
-      "forks": 16708,
-      "starsToday": 898,
+      "name": "opencode",
+      "repo": "anomalyco/opencode",
+      "owner": "anomalyco",
+      "desc": "The open source coding agent.",
+      "href": "https://github.com/anomalyco/opencode",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 214623,
+      "forks": 28809,
+      "starsToday": 488,
       "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&v=4",
+          "username": "thdxr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/63023139?s=40&v=4",
+          "username": "rekram1-node"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2363879?s=40&v=4",
+          "username": "adamdotdevin"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/in/1549082?s=40&v=4",
+          "username": "opencode-agent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&v=4",
+          "username": "kitlangton"
+        }
+      ],
+      "tags": [
+        "typescript",
+        "ai"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "ruflo",
+      "repo": "ruvnet/ruflo",
+      "owner": "ruvnet",
+      "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "href": "https://github.com/ruvnet/ruflo",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 75831,
+      "forks": 8985,
+      "starsToday": 406,
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
+          "username": "ruvnet"
+        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/50207393?s=40&v=4",
-          "username": "MadsLorentzen"
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
-          "username": "ayobamiseun"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/80536682?s=40&v=4",
-          "username": "oscarbol09"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17257805?s=40&v=4",
-          "username": "jakob1379"
+          "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
+          "username": "proffesor-for-testing"
         }
       ],
       "tags": [
-        "ai",
-        "ai-agents",
-        "career",
-        "claude-code",
-        "cover-letter",
-        "cv",
-        "interview-preparation",
-        "job-application"
-      ]
-    },
-    {
-      "rank": 12,
-      "name": "LinkSwift",
-      "repo": "hmjz100/LinkSwift",
-      "owner": "hmjz100",
-      "desc": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
-      "href": "https://github.com/hmjz100/LinkSwift",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 24115,
-      "forks": 1467,
-      "starsToday": 538,
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/98228280?s=40&v=4",
-          "username": "hmjz100"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/62408957?s=40&v=4",
-          "username": "MisaLiu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/99261160?s=40&v=4",
-          "username": "Night-stars-1"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46892455?s=40&v=4",
-          "username": "DeepslateQAQ"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/61721162?s=40&v=4",
-          "username": "bilili-syy"
-        }
-      ],
-      "tags": [
-        "aliyun-drive",
-        "baidu",
-        "baidu-netdisk",
-        "quark-netdisk",
-        "tianyi-netdisk",
-        "xunlei-netdisk",
-        "yidong-netdisk",
-        "tampermonkey"
+        "swarm",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "autonomous-agents",
+        "codex",
+        "mcp-server",
+        "multi-agent"
       ]
     },
     {
@@ -2410,9 +2348,9 @@
       "href": "https://github.com/xerj-org/xerj",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 7235,
-      "forks": 372,
-      "starsToday": 1648,
+      "stars": 7388,
+      "forks": 382,
+      "starsToday": 1102,
       "contributors": [
         {
           "avatar": "https://avatars.githubusercontent.com/u/297525353?s=40&v=4",
