@@ -1,0 +1,1 @@
+export const ERROR_UNKNOWN_MESSAGE_TYPE=Error("unknown message type");export const ERROR_NOT_LOADED=Error("ffmpeg is not loaded, call `await ffmpeg.load()` first");export const ERROR_TERMINATED=Error("called FFmpeg.terminate()");export const ERROR_IMPORT_FAILURE=Error("failed to import ffmpeg-core.js");
