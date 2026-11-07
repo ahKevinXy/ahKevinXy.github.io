@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-07T02:21:17.998Z",
+  "updatedAt": "2026-11-07T09:14:45.336Z",
   "updatedDate": "2026-11-07",
-  "updatedTime": "10:21:17",
-  "updatedHis": "102117",
+  "updatedTime": "17:14:45",
+  "updatedHis": "171445",
   "timeZone": "Asia/Shanghai",
   "date": "2026-11-07",
   "since": "daily",
@@ -24,8 +24,8 @@
           "href": "https://github.com/zed-industries/zed",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 93673,
-          "forks": 11503,
+          "stars": 93939,
+          "forks": 11528,
           "starsToday": 306,
           "contributors": [
             {
@@ -65,8 +65,8 @@
           "href": "https://github.com/NVIDIA/auto-ontology",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 9110,
-          "forks": 729,
+          "stars": 9488,
+          "forks": 755,
           "starsToday": 2015,
           "contributors": [
             {
@@ -104,8 +104,8 @@
           "href": "https://github.com/rails/rails",
           "language": "Ruby",
           "languageColor": "#701516",
-          "stars": 59033,
-          "forks": 23832,
+          "stars": 59068,
+          "forks": 23834,
           "starsToday": 142,
           "contributors": [
             {
@@ -148,8 +148,8 @@
           "href": "https://github.com/mpv-player/mpv",
           "language": "C",
           "languageColor": "#555555",
-          "stars": 37887,
-          "forks": 3633,
+          "stars": 37954,
+          "forks": 3636,
           "starsToday": 37,
           "contributors": [
             {
@@ -192,8 +192,8 @@
           "href": "https://github.com/rust-lang/rust",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 121467,
-          "forks": 17367,
+          "stars": 121556,
+          "forks": 17369,
           "starsToday": 192,
           "contributors": [
             {
@@ -232,8 +232,8 @@
           "href": "https://github.com/react/react",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 252267,
-          "forks": 51812,
+          "stars": 252331,
+          "forks": 51852,
           "starsToday": 248,
           "contributors": [
             {
@@ -275,8 +275,8 @@
           "href": "https://github.com/angular/angular",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 101374,
-          "forks": 28912,
+          "stars": 101453,
+          "forks": 28917,
           "starsToday": 135,
           "contributors": [
             {
@@ -319,8 +319,8 @@
           "href": "https://github.com/symfony/symfony",
           "language": "PHP",
           "languageColor": "#4F5D95",
-          "stars": 31441,
-          "forks": 9948,
+          "stars": 31505,
+          "forks": 9951,
           "starsToday": 128,
           "contributors": [
             {
@@ -363,8 +363,8 @@
           "href": "https://github.com/prometheus/prometheus",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 67199,
-          "forks": 10989,
+          "stars": 67264,
+          "forks": 10992,
           "starsToday": 148,
           "contributors": [
             {
@@ -407,8 +407,8 @@
           "href": "https://github.com/google/skills",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 22859,
-          "forks": 1922,
+          "stars": 23005,
+          "forks": 1932,
           "starsToday": 534,
           "contributors": [
             {
@@ -447,8 +447,8 @@
           "href": "https://github.com/microsoft/vscode",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 195036,
-          "forks": 44425,
+          "stars": 195106,
+          "forks": 44438,
           "starsToday": 301,
           "contributors": [
             {
@@ -482,6 +482,46 @@
         },
         {
           "rank": 12,
+          "name": "lz4",
+          "repo": "lz4/lz4",
+          "owner": "lz4",
+          "desc": "Extremely Fast Compression algorithm",
+          "href": "https://github.com/lz4/lz4",
+          "language": "C",
+          "languageColor": "#555555",
+          "stars": 12671,
+          "forks": 1646,
+          "starsToday": 315,
+          "contributors": [
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
+              "username": "Cyan4973"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
+              "username": "inikep"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
+              "username": "t-mat"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
+              "username": "felixhandte"
+            },
+            {
+              "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&v=4",
+              "username": "dependabot"
+            }
+          ],
+          "tags": [
+            "lz4",
+            "c",
+            "compression"
+          ]
+        },
+        {
+          "rank": 13,
           "name": "nushell",
           "repo": "nushell/nushell",
           "owner": "nushell",
@@ -489,8 +529,8 @@
           "href": "https://github.com/nushell/nushell",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 40994,
-          "forks": 2343,
+          "stars": 41040,
+          "forks": 2345,
           "starsToday": 131,
           "contributors": [
             {
@@ -521,7 +561,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "etcd",
           "repo": "etcd-io/etcd",
           "owner": "etcd-io",
@@ -529,8 +569,8 @@
           "href": "https://github.com/etcd-io/etcd",
           "language": "Go",
           "languageColor": "#00ADD8",
-          "stars": 52619,
-          "forks": 10590,
+          "stars": 52663,
+          "forks": 10591,
           "starsToday": 128,
           "contributors": [
             {
@@ -566,7 +606,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "openssl",
           "repo": "openssl/openssl",
           "owner": "openssl",
@@ -574,8 +614,8 @@
           "href": "https://github.com/openssl/openssl",
           "language": "C",
           "languageColor": "#555555",
-          "stars": 31300,
-          "forks": 11580,
+          "stars": 31352,
+          "forks": 11584,
           "starsToday": 26,
           "contributors": [
             {
@@ -609,7 +649,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "skills",
           "repo": "mattpocock/skills",
           "owner": "mattpocock",
@@ -617,8 +657,8 @@
           "href": "https://github.com/mattpocock/skills",
           "language": "Shell",
           "languageColor": "#89e051",
-          "stars": 316776,
-          "forks": 26499,
+          "stars": 317047,
+          "forks": 26535,
           "starsToday": 2070,
           "contributors": [
             {
@@ -644,7 +684,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "security-audit-skill",
           "repo": "cloudflare/security-audit-skill",
           "owner": "cloudflare",
@@ -652,8 +692,8 @@
           "href": "https://github.com/cloudflare/security-audit-skill",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 64133,
-          "forks": 4158,
+          "stars": 64588,
+          "forks": 4191,
           "starsToday": 2548,
           "contributors": [
             {
@@ -676,7 +716,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "ruff",
           "repo": "astral-sh/ruff",
           "owner": "astral-sh",
@@ -684,8 +724,8 @@
           "href": "https://github.com/astral-sh/ruff",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 50709,
-          "forks": 2613,
+          "stars": 50781,
+          "forks": 2618,
           "starsToday": 169,
           "contributors": [
             {
@@ -737,8 +777,8 @@
           "href": "https://github.com/thedotmack/claude-mem",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 114050,
-          "forks": 9892,
+          "stars": 114172,
+          "forks": 9906,
           "starsToday": 8726,
           "contributors": [
             {
@@ -782,8 +822,8 @@
           "href": "https://github.com/Donchitos/Claude-Code-Game-Studios",
           "language": "Shell",
           "languageColor": "#89e051",
-          "stars": 36143,
-          "forks": 4759,
+          "stars": 36247,
+          "forks": 4774,
           "starsToday": 6018,
           "contributors": [
             {
@@ -815,8 +855,8 @@
           "href": "https://github.com/pingdotgg/t3code",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 49885,
-          "forks": 9753,
+          "stars": 50281,
+          "forks": 9791,
           "starsToday": 16782,
           "contributors": [
             {
@@ -853,8 +893,8 @@
           "href": "https://github.com/max-sixty/worktrunk",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 11810,
-          "forks": 455,
+          "stars": 11854,
+          "forks": 459,
           "starsToday": 2184,
           "contributors": [
             {
@@ -896,8 +936,8 @@
           "href": "https://github.com/Nutlope/hallmark",
           "language": "CSS",
           "languageColor": "#663399",
-          "stars": 49664,
-          "forks": 2632,
+          "stars": 49830,
+          "forks": 2641,
           "starsToday": 6900,
           "contributors": [
             {
@@ -935,8 +975,8 @@
           "href": "https://github.com/anthropics/skills",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 188198,
-          "forks": 22198,
+          "stars": 188297,
+          "forks": 22204,
           "starsToday": 3159,
           "contributors": [
             {
@@ -973,8 +1013,8 @@
           "href": "https://github.com/milind-soni/OpenMausBot",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 15414,
-          "forks": 2167,
+          "stars": 16036,
+          "forks": 2272,
           "starsToday": 6395,
           "contributors": [
             {
@@ -1018,8 +1058,8 @@
           "href": "https://github.com/pbakaus/impeccable",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 104850,
-          "forks": 6231,
+          "stars": 105045,
+          "forks": 6241,
           "starsToday": 8172,
           "contributors": [
             {
@@ -1060,8 +1100,8 @@
           "href": "https://github.com/obra/superpowers",
           "language": "Shell",
           "languageColor": "#89e051",
-          "stars": 313645,
-          "forks": 27901,
+          "stars": 313777,
+          "forks": 27914,
           "starsToday": 4577,
           "contributors": [
             {
@@ -1105,8 +1145,8 @@
           "href": "https://github.com/HKUDS/DeepTutor",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 55972,
-          "forks": 6847,
+          "stars": 56139,
+          "forks": 6865,
           "starsToday": 4588,
           "contributors": [
             {
@@ -1150,7 +1190,7 @@
           "href": "https://github.com/hyprwm/Hyprland",
           "language": "C++",
           "languageColor": "#f34b7d",
-          "stars": 40448,
+          "stars": 40462,
           "forks": 2167,
           "starsToday": 1413,
           "contributors": [
@@ -1191,8 +1231,8 @@
           "href": "https://github.com/jakubkrehel/skills",
           "language": "Markdown",
           "languageColor": "#083fa1",
-          "stars": 11301,
-          "forks": 439,
+          "stars": 11356,
+          "forks": 440,
           "starsToday": 1921,
           "contributors": [
             {
@@ -1218,8 +1258,8 @@
           "href": "https://github.com/calesthio/OpenMontage",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 77735,
-          "forks": 10346,
+          "stars": 77903,
+          "forks": 10369,
           "starsToday": 4405,
           "contributors": [
             {
@@ -1263,8 +1303,8 @@
           "href": "https://github.com/The-PR-Agent/pr-agent",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 15314,
-          "forks": 2130,
+          "stars": 15356,
+          "forks": 2132,
           "starsToday": 1523,
           "contributors": [
             {
@@ -1308,8 +1348,8 @@
           "href": "https://github.com/nightly-labs/openbot",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 6074,
-          "forks": 621,
+          "stars": 6140,
+          "forks": 625,
           "starsToday": 1808,
           "contributors": [
             {
@@ -1353,8 +1393,8 @@
           "href": "https://github.com/D4Vinci/Scrapling",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 98868,
-          "forks": 10353,
+          "stars": 99010,
+          "forks": 10377,
           "starsToday": 8372,
           "contributors": [
             {
@@ -1396,8 +1436,8 @@
           "owner": "multica-ai",
           "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
           "href": "https://github.com/multica-ai/andrej-karpathy-skills",
-          "stars": 230311,
-          "forks": 22918,
+          "stars": 230401,
+          "forks": 22929,
           "starsToday": 3671,
           "contributors": [
             {
@@ -1434,8 +1474,8 @@
           "href": "https://github.com/shiyu-coder/Kronos",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 47078,
-          "forks": 7783,
+          "stars": 47125,
+          "forks": 7793,
           "starsToday": 2984,
           "contributors": [
             {
@@ -1481,8 +1521,8 @@
           "href": "https://github.com/morluto/rea",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 438195,
-          "forks": 108568,
+          "stars": 439050,
+          "forks": 108770,
           "starsToday": 431436,
           "contributors": [
             {
@@ -1526,8 +1566,8 @@
           "href": "https://github.com/storytold/artcraft",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 39275,
-          "forks": 6193,
+          "stars": 39365,
+          "forks": 6203,
           "starsToday": 36600,
           "contributors": [
             {
@@ -1568,8 +1608,8 @@
           "href": "https://github.com/boykopovar/AnyPS5",
           "language": "C++",
           "languageColor": "#f34b7d",
-          "stars": 51813,
-          "forks": 4931,
+          "stars": 51876,
+          "forks": 4941,
           "starsToday": 46561,
           "contributors": [
             {
@@ -1612,8 +1652,8 @@
           "href": "https://github.com/Nutlope/hallmark",
           "language": "CSS",
           "languageColor": "#663399",
-          "stars": 49664,
-          "forks": 2632,
+          "stars": 49830,
+          "forks": 2641,
           "starsToday": 19792,
           "contributors": [
             {
@@ -1651,8 +1691,8 @@
           "href": "https://github.com/cloudflare/security-audit-skill",
           "language": "JavaScript",
           "languageColor": "#f1e05a",
-          "stars": 64133,
-          "forks": 4158,
+          "stars": 64588,
+          "forks": 4191,
           "starsToday": 38004,
           "contributors": [
             {
@@ -1683,8 +1723,8 @@
           "href": "https://github.com/debpalash/VoiceStudio",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 102964,
-          "forks": 11423,
+          "stars": 103198,
+          "forks": 11463,
           "starsToday": 49078,
           "contributors": [
             {
@@ -1728,8 +1768,8 @@
           "href": "https://github.com/heygen-com/hyperframes",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 80146,
-          "forks": 7394,
+          "stars": 80247,
+          "forks": 7402,
           "starsToday": 22718,
           "contributors": [
             {
@@ -1773,8 +1813,8 @@
           "href": "https://github.com/pingdotgg/t3code",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 49885,
-          "forks": 9753,
+          "stars": 50281,
+          "forks": 9791,
           "starsToday": 23406,
           "contributors": [
             {
@@ -1811,8 +1851,8 @@
           "href": "https://github.com/thedotmack/claude-mem",
           "language": "TypeScript",
           "languageColor": "#3178c6",
-          "stars": 114050,
-          "forks": 9892,
+          "stars": 114172,
+          "forks": 9906,
           "starsToday": 17612,
           "contributors": [
             {
@@ -1856,8 +1896,8 @@
           "href": "https://github.com/NationalSecurityAgency/ghidra",
           "language": "Java",
           "languageColor": "#b07219",
-          "stars": 98399,
-          "forks": 11139,
+          "stars": 98464,
+          "forks": 11151,
           "starsToday": 17642,
           "contributors": [
             {
@@ -1896,8 +1936,8 @@
           "href": "https://github.com/pbakaus/impeccable",
           "language": "Rust",
           "languageColor": "#dea584",
-          "stars": 104850,
-          "forks": 6231,
+          "stars": 105045,
+          "forks": 6241,
           "starsToday": 27610,
           "contributors": [
             {
@@ -1938,8 +1978,8 @@
           "href": "https://github.com/HKUDS/DeepTutor",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 55972,
-          "forks": 6847,
+          "stars": 56139,
+          "forks": 6865,
           "starsToday": 15214,
           "contributors": [
             {
@@ -1983,8 +2023,8 @@
           "href": "https://github.com/anthropics/knowledge-work-plugins",
           "language": "Python",
           "languageColor": "#3572A5",
-          "stars": 35009,
-          "forks": 3853,
+          "stars": 35055,
+          "forks": 3859,
           "starsToday": 8836,
           "contributors": [
             {
@@ -2026,8 +2066,8 @@
       "href": "https://github.com/zed-industries/zed",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 93673,
-      "forks": 11503,
+      "stars": 93939,
+      "forks": 11528,
       "starsToday": 306,
       "contributors": [
         {
@@ -2067,8 +2107,8 @@
       "href": "https://github.com/NVIDIA/auto-ontology",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 9110,
-      "forks": 729,
+      "stars": 9488,
+      "forks": 755,
       "starsToday": 2015,
       "contributors": [
         {
@@ -2106,8 +2146,8 @@
       "href": "https://github.com/rails/rails",
       "language": "Ruby",
       "languageColor": "#701516",
-      "stars": 59033,
-      "forks": 23832,
+      "stars": 59068,
+      "forks": 23834,
       "starsToday": 142,
       "contributors": [
         {
@@ -2150,8 +2190,8 @@
       "href": "https://github.com/mpv-player/mpv",
       "language": "C",
       "languageColor": "#555555",
-      "stars": 37887,
-      "forks": 3633,
+      "stars": 37954,
+      "forks": 3636,
       "starsToday": 37,
       "contributors": [
         {
@@ -2194,8 +2234,8 @@
       "href": "https://github.com/rust-lang/rust",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 121467,
-      "forks": 17367,
+      "stars": 121556,
+      "forks": 17369,
       "starsToday": 192,
       "contributors": [
         {
@@ -2234,8 +2274,8 @@
       "href": "https://github.com/react/react",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 252267,
-      "forks": 51812,
+      "stars": 252331,
+      "forks": 51852,
       "starsToday": 248,
       "contributors": [
         {
@@ -2277,8 +2317,8 @@
       "href": "https://github.com/angular/angular",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 101374,
-      "forks": 28912,
+      "stars": 101453,
+      "forks": 28917,
       "starsToday": 135,
       "contributors": [
         {
@@ -2321,8 +2361,8 @@
       "href": "https://github.com/symfony/symfony",
       "language": "PHP",
       "languageColor": "#4F5D95",
-      "stars": 31441,
-      "forks": 9948,
+      "stars": 31505,
+      "forks": 9951,
       "starsToday": 128,
       "contributors": [
         {
@@ -2365,8 +2405,8 @@
       "href": "https://github.com/prometheus/prometheus",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 67199,
-      "forks": 10989,
+      "stars": 67264,
+      "forks": 10992,
       "starsToday": 148,
       "contributors": [
         {
@@ -2409,8 +2449,8 @@
       "href": "https://github.com/google/skills",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 22859,
-      "forks": 1922,
+      "stars": 23005,
+      "forks": 1932,
       "starsToday": 534,
       "contributors": [
         {
@@ -2449,8 +2489,8 @@
       "href": "https://github.com/microsoft/vscode",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 195036,
-      "forks": 44425,
+      "stars": 195106,
+      "forks": 44438,
       "starsToday": 301,
       "contributors": [
         {
@@ -2484,6 +2524,46 @@
     },
     {
       "rank": 12,
+      "name": "lz4",
+      "repo": "lz4/lz4",
+      "owner": "lz4",
+      "desc": "Extremely Fast Compression algorithm",
+      "href": "https://github.com/lz4/lz4",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": 12671,
+      "forks": 1646,
+      "starsToday": 315,
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
+          "username": "Cyan4973"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
+          "username": "inikep"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
+          "username": "t-mat"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
+          "username": "felixhandte"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/in/29110?s=40&v=4",
+          "username": "dependabot"
+        }
+      ],
+      "tags": [
+        "lz4",
+        "c",
+        "compression"
+      ]
+    },
+    {
+      "rank": 13,
       "name": "nushell",
       "repo": "nushell/nushell",
       "owner": "nushell",
@@ -2491,8 +2571,8 @@
       "href": "https://github.com/nushell/nushell",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 40994,
-      "forks": 2343,
+      "stars": 41040,
+      "forks": 2345,
       "starsToday": 131,
       "contributors": [
         {
@@ -2523,7 +2603,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "etcd",
       "repo": "etcd-io/etcd",
       "owner": "etcd-io",
@@ -2531,8 +2611,8 @@
       "href": "https://github.com/etcd-io/etcd",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 52619,
-      "forks": 10590,
+      "stars": 52663,
+      "forks": 10591,
       "starsToday": 128,
       "contributors": [
         {
@@ -2568,7 +2648,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "openssl",
       "repo": "openssl/openssl",
       "owner": "openssl",
@@ -2576,8 +2656,8 @@
       "href": "https://github.com/openssl/openssl",
       "language": "C",
       "languageColor": "#555555",
-      "stars": 31300,
-      "forks": 11580,
+      "stars": 31352,
+      "forks": 11584,
       "starsToday": 26,
       "contributors": [
         {
@@ -2611,7 +2691,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "skills",
       "repo": "mattpocock/skills",
       "owner": "mattpocock",
@@ -2619,8 +2699,8 @@
       "href": "https://github.com/mattpocock/skills",
       "language": "Shell",
       "languageColor": "#89e051",
-      "stars": 316776,
-      "forks": 26499,
+      "stars": 317047,
+      "forks": 26535,
       "starsToday": 2070,
       "contributors": [
         {
@@ -2646,7 +2726,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "security-audit-skill",
       "repo": "cloudflare/security-audit-skill",
       "owner": "cloudflare",
@@ -2654,8 +2734,8 @@
       "href": "https://github.com/cloudflare/security-audit-skill",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 64133,
-      "forks": 4158,
+      "stars": 64588,
+      "forks": 4191,
       "starsToday": 2548,
       "contributors": [
         {
@@ -2678,7 +2758,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "ruff",
       "repo": "astral-sh/ruff",
       "owner": "astral-sh",
@@ -2686,8 +2766,8 @@
       "href": "https://github.com/astral-sh/ruff",
       "language": "Rust",
       "languageColor": "#dea584",
-      "stars": 50709,
-      "forks": 2613,
+      "stars": 50781,
+      "forks": 2618,
       "starsToday": 169,
       "contributors": [
         {
